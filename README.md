@@ -4,6 +4,9 @@ VibeStudio is a shared creative workspace where a creator and the agent they alr
 
 Built for [The WebMCP Challenge](https://webmcp.devpost.com/), it uses contextual `document.modelContext.registerTool` capabilities so Codex and the creator can work on the same visible, versioned artifact. VibeStudio does not replace the agent with another chat box. It gives the agent a safe place to collaborate.
 
+- [Open the live WebMCP demo](https://vibestudio-webmcp.vercel.app/)
+- [Watch the 79-second public demo](https://youtu.be/kABJvG4_BBU)
+
 ## The demo in one minute
 
 1. Open **Inspire** and choose a saved reference.
@@ -60,7 +63,7 @@ npm install
 npm run dev:demo
 ```
 
-Open [http://127.0.0.1:4323](http://127.0.0.1:4323) in ChatGPT's in-app browser or a compatible Chrome WebMCP client.
+Open the [public judge build](https://vibestudio-webmcp.vercel.app/) in ChatGPT's in-app browser or a compatible Chrome WebMCP client. For local verification, open [http://127.0.0.1:4323](http://127.0.0.1:4323).
 
 Demo mode:
 

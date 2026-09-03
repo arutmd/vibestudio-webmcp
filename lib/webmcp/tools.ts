@@ -36,6 +36,28 @@ function jsonInit(method: string, body: unknown, signal?: AbortSignal): RequestI
 const readAnnotations = { readOnlyHint: true, untrustedContentHint: false } as const;
 const sourceAnnotations = { readOnlyHint: true, untrustedContentHint: true } as const;
 
+// Keep the receipt returned by a newly-created Session available in the current
+// browser workspace. This also preserves continuity on stateless public demo
+// hosts where two API routes may run in separate serverless instances.
+const liveSessionRecords = new Map<string, Record<string, unknown>>();
+
+function sessionToolReceipt(record: Record<string, unknown>): Record<string, unknown> {
+  return {
+    session_id: record.id,
+    connection_id: record.session_connection_id ?? null,
+    connection_status: record.session_connection_status ?? "waiting",
+    connected_agent: record.session_agent_label ?? null,
+    connected_at: record.session_connected_at ?? null,
+    output: record.session_output ?? record.visual_output ?? "carousel",
+    title: record.title,
+    brief: record.session_brief ?? record.hook,
+    status: record.status,
+    version: record.current_version ?? 1,
+    context_receipt_id: record.context_receipt_id ?? null,
+    instruction: `Use Session ${String(record.id ?? "")} as the shared workspace. Read its Template receipt before changing slides.`,
+  };
+}
+
 export function createToolDefinitions(environment: ToolEnvironment): WebMCPTool[] {
   const fetcher = environment.fetcher ?? fetch;
   const changed = (detail: Record<string, unknown>) => environment.dispatch?.(detail);
@@ -85,9 +107,11 @@ export function createToolDefinitions(environment: ToolEnvironment): WebMCPTool[
       execute: async (_input, context) => {
         const data = object(await request(fetcher, "/api/sessions", { signal: context?.signal }));
         const sessions = Array.isArray(data.sessions) ? data.sessions : [];
+        const cached = [...liveSessionRecords.values()].map(sessionToolReceipt);
+        const seen = new Set(sessions.map((value) => String(object(value).session_id ?? "")));
         return toolText({
           selected_session_id: environment.selectedPieceId,
-          sessions: sessions.slice(0, 12),
+          sessions: [...cached.filter((value) => !seen.has(String(value.session_id ?? ""))), ...sessions].slice(0, 12),
         });
       },
     },
@@ -115,6 +139,8 @@ export function createToolDefinitions(environment: ToolEnvironment): WebMCPTool[
           idempotency_key: value.idempotency_key,
         }, context?.signal)));
         const receipt = object(data.receipt);
+        const record = object(data.record);
+        if (record.id) liveSessionRecords.set(String(record.id), record);
         changed({ entity: "piece", id: receipt.session_id, select: true, view: "piece" });
         return toolText(receipt);
       },
@@ -133,6 +159,18 @@ export function createToolDefinitions(environment: ToolEnvironment): WebMCPTool[
         const value = object(input);
         const id = String(value.session_id ?? environment.selectedPieceId ?? "");
         if (!id) throw new Error("Open a VibeStudio Session or provide session_id first");
+        const cached = liveSessionRecords.get(id);
+        if (cached) {
+          const connected = {
+            ...cached,
+            session_connection_status: "connected",
+            session_agent_label: value.agent_label ?? "Codex",
+            session_connected_at: new Date().toISOString(),
+          };
+          liveSessionRecords.set(id, connected);
+          changed({ entity: "piece", id, select: true, view: "piece" });
+          return toolText(sessionToolReceipt(connected));
+        }
         const currentData = object(await request(fetcher, `/api/pieces/${encodeURIComponent(id)}`, { signal: context?.signal }));
         const current = object(currentData.record);
         const data = object(await request(fetcher, `/api/sessions/${encodeURIComponent(id)}/connect`, jsonInit("POST", {
@@ -155,22 +193,11 @@ export function createToolDefinitions(environment: ToolEnvironment): WebMCPTool[
         const value = object(input);
         const id = String(value.session_id ?? environment.selectedPieceId ?? "");
         if (!id) throw new Error("Open a VibeStudio Session or provide session_id first");
+        const cached = liveSessionRecords.get(id);
+        if (cached) return toolText(sessionToolReceipt(cached));
         const data = object(await request(fetcher, `/api/pieces/${encodeURIComponent(id)}`, { signal: context?.signal }));
         const record = object(data.record);
-        return toolText({
-          session_id: record.id,
-          connection_id: record.session_connection_id ?? null,
-          connection_status: record.session_connection_status ?? "waiting",
-          connected_agent: record.session_agent_label ?? null,
-          connected_at: record.session_connected_at ?? null,
-          output: record.session_output ?? record.visual_output ?? "carousel",
-          title: record.title,
-          brief: record.session_brief ?? record.hook,
-          status: record.status,
-          version: record.current_version ?? 1,
-          context_receipt_id: record.context_receipt_id ?? null,
-          instruction: `Use Session ${record.id} as the shared workspace. Read its Template receipt before changing slides.`,
-        });
+        return toolText(sessionToolReceipt(record));
       },
     },
   ];

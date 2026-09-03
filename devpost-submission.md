@@ -87,15 +87,15 @@ Verified on September 3, 2026:
 
 ### Public judge path
 
-TODO: Replace the local URL above with the public demo URL and re-run this path in a clean signed-out browser before submission.
+Open `https://vibestudio-webmcp.vercel.app/` in ChatGPT's in-app browser or Google Chrome with WebMCP enabled, then follow the same path above. No credentials are required. The public build was verified live with contextual WebMCP tool discovery, generic inspiration data, a real `session_start` call, visible Session selection, and an immediate `session_read` continuity receipt.
 
 ## Public Demo Link
 
-TODO: Deploy the sanitized judge build and add its public HTTPS URL.
+https://vibestudio-webmcp.vercel.app/
 
 ## Public Repository Link
 
-TODO: Create a public GitHub, GitLab, or Bitbucket repository and add its URL.
+https://github.com/arutmd/vibestudio-webmcp
 
 The repository must contain the application source, assets required to run the judge demo, setup instructions, the visible `document.modelContext.registerTool` implementation, and an open-source license that Devpost can detect on the repository page.
 
@@ -105,7 +105,7 @@ The complete local video composition is 78.057 seconds with English narration, t
 
 The composition passed HyperFrames lint, runtime, layout, motion, and WCAG AA contrast checks. The final 1920 × 1080 MP4 is rendered locally with H.264 video and 48 kHz stereo AAC audio. Public YouTube upload remains TODO pending explicit publishing approval.
 
-**Public YouTube URL:** TODO
+**Public YouTube URL:** https://youtu.be/kABJvG4_BBU
 
 ## Screenshot Shot List
 
@@ -131,15 +131,13 @@ The composition passed HyperFrames lint, runtime, layout, motion, and WCAG AA co
 - An MIT license and public deployment configuration are present.
 - The local scan found no high-confidence API-key, GitHub-token, Slack-token, AWS-key, or private-key pattern.
 
-### Blocking submission
+### Final submission gate
 
-- No Devpost project has been created for VibeStudio yet.
-- No public live demo URL exists.
-- No Git repository or public repository URL exists for this project.
-- The final MP4 is rendered and verified locally, but no public YouTube demo URL exists.
-- `.env.local` exists locally and must remain excluded from any public repository or deployment bundle.
-- Palm's private `data-seeds/` and local Devpost/workflow state are explicitly excluded; the public package contains only `demo-seeds/`.
-- The future public deployment still needs a clean signed-out browser acceptance test.
+- The public repository, live demo, and public YouTube video are live.
+- The MIT license is detected by GitHub.
+- The public app returns HTTP 200, serves only generic judge data, exposes contextual WebMCP tools, and blocks external fetch routes with HTTP 403.
+- `.env.local`, Palm's private `data-seeds/`, local Devpost state, generated caches, and machine-specific paths remain excluded from the public repository and deployment bundle.
+- The only remaining action is creating and submitting the Devpost project after Palm's explicit final confirmation.
 
 ## Known Limitations
 
@@ -147,7 +145,7 @@ The composition passed HyperFrames lint, runtime, layout, motion, and WCAG AA co
 - Carousel is the complete challenge output; hero image, standalone post, video, overlay, and SVG production are future skills rather than completed challenge flows.
 - Live source monitoring, multi-user authentication, and automated publishing are outside the challenge scope.
 - Image generation may outlast an in-app browser call timeout, but the Session preserves progress and completed layers.
-- The sanitized public judge deployment still requires a public host and a clean signed-out acceptance pass.
+- The serverless judge build keeps newly-created Session receipts in the active browser workspace for immediate agent continuity; the local build remains the durable filesystem-backed reference implementation.
 
 ## TODO Official Form Fields
 
@@ -156,9 +154,9 @@ The composition passed HyperFrames lint, runtime, layout, motion, and WCAG AA co
 - **Organization name:** Not applicable
 - **App Status:** Existing
 - **What changed during the submission period:** The existing local content Studio was extended after August 25 with the VibeStudio creator and inspiration stores, editable Template memory, bounded context receipts, versioned Sessions, shared attention, contextual WebMCP tool registration, safe agent mutations and undo, the carousel skill contract, the new Inspire and Template experiences, and the tested Codex-to-carousel golden path. The repository history or equivalent dated evidence must make this boundary visible.
-- **Live URL:** TODO
+- **Live URL:** https://vibestudio-webmcp.vercel.app/
 - **Testing instructions / credentials:** Use the public judge-path instructions above. No credentials planned for the sanitized demo.
-- **Public code repository:** TODO
+- **Public code repository:** https://github.com/arutmd/vibestudio-webmcp
 - **Agents or clients tested:** Codex Desktop with ChatGPT's in-app browser and its native WebMCP support.
 - **AI tools leveraged:** Codex Desktop for research, product design, implementation, debugging, testing, and the live WebMCP collaboration flow; OpenAI image generation for visual exploration and text-free carousel layers. Optional Anthropic-backed routes exist in the pre-existing local Studio but are not the core challenge proof.
 - **Learning derived:** Significant
