@@ -1,0 +1,256 @@
+{
+  "typography": [
+    {
+      "role": "display",
+      "fontFamily": "-apple-system",
+      "fontSize": "42px",
+      "fontWeight": "620",
+      "lineHeight": "44.1px",
+      "letterSpacing": "-1.89px",
+      "color": "#F4F1EB",
+      "sampleText": "Inspire"
+    },
+    {
+      "role": "label",
+      "fontFamily": "-apple-system",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "color": "#F4F1EB",
+      "sampleText": "webSaved locally"
+    },
+    {
+      "role": "body",
+      "fontFamily": "-apple-system",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "color": "#949393",
+      "sampleText": "Follow broadly. Save selectively. Teach VibeStudio what feel"
+    },
+    {
+      "role": "heading",
+      "fontFamily": "-apple-system",
+      "fontSize": "11px",
+      "fontWeight": "650",
+      "lineHeight": "15.95px",
+      "letterSpacing": "normal",
+      "color": "#D9D6D1",
+      "sampleText": "YouTube"
+    },
+    {
+      "role": "body-small",
+      "fontFamily": "-apple-system",
+      "fontSize": "6px",
+      "fontWeight": "400",
+      "lineHeight": "8.7px",
+      "letterSpacing": "0.36px",
+      "color": "#DDDDDD",
+      "sampleText": "video still"
+    }
+  ],
+  "spacing": {
+    "observed": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "baseUnit": 4
+  },
+  "radius": [
+    "7px",
+    "8px",
+    "9px"
+  ],
+  "shadows": [
+    {
+      "value": "rgba(255, 255, 255, 0.15) 0px 1px 0px 0px inset",
+      "count": 3
+    },
+    {
+      "value": "rgba(98, 189, 128, 0.72) 2px 0px 0px 0px inset",
+      "count": 1
+    }
+  ],
+  "buttons": [
+    {
+      "label": "button",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#949393",
+      "padding": "0px",
+      "borderRadius": "7px",
+      "border": "0px none rgb(148, 147, 147)",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "30px"
+    },
+    {
+      "label": "Inspire",
+      "background": "#FFFFFF",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#FFFFFF",
+      "padding": "9px 10px",
+      "borderRadius": "8px",
+      "border": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "38.2969px"
+    },
+    {
+      "label": "button",
+      "background": "#FFFFFF",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#9B9894",
+      "padding": "0px",
+      "borderRadius": "6px",
+      "border": "1px solid rgba(255, 255, 255, 0.09)",
+      "boxShadow": "none",
+      "fontSize": "10px",
+      "fontWeight": "680",
+      "height": "22px"
+    },
+    {
+      "label": "Memory is the missing creative layerDraf",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F4F1EB",
+      "padding": "9px 10px",
+      "borderRadius": "8px",
+      "border": "0px none rgb(244, 241, 235)",
+      "boxShadow": "rgba(98, 189, 128, 0.72) 2px 0px 0px 0px inset",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "37.0469px"
+    },
+    {
+      "label": "Shared Attention guide",
+      "background": "#FFFFFF",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F4F1EB",
+      "padding": "7px 8px",
+      "borderRadius": "7px",
+      "border": "1px solid rgba(255, 255, 255, 0.09)",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "36.2969px"
+    },
+    {
+      "label": "Manage sources",
+      "background": "#FFFFFF",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F4F1EB",
+      "padding": "0px 12px",
+      "borderRadius": "8px",
+      "border": "1px solid rgba(255, 255, 255, 0.16)",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "34px"
+    }
+  ],
+  "cards": [
+    {
+      "label": "card",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F4F1EB",
+      "padding": "10px",
+      "borderRadius": "8px",
+      "border": "1px dashed rgba(255, 255, 255, 0.16)",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "136.812px"
+    },
+    {
+      "label": "card",
+      "background": "#141516",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F4F1EB",
+      "padding": "28px 24px",
+      "borderRadius": "0px",
+      "border": "",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "2163.02px"
+    },
+    {
+      "label": "card",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F4F1EB",
+      "padding": "20px 0px 0px",
+      "borderRadius": "0px",
+      "border": "",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "height": "178.594px"
+    }
+  ],
+  "nav": {
+    "label": "navigation",
+    "background": "transparent",
+    "backgroundImage": "",
+    "backdropFilter": "",
+    "color": "#F4F1EB",
+    "padding": "0px",
+    "borderRadius": "0px",
+    "border": "0px solid rgb(229, 231, 235)",
+    "boxShadow": "none",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "height": "120.891px"
+  },
+  "chips": [],
+  "statCells": [],
+  "tabs": [],
+  "backgrounds": [
+    {
+      "value": "linear-gradient(rgb(31, 31, 31) 0%, rgb(28, 28, 30) 100%)",
+      "area": 2073600
+    },
+    {
+      "value": "radial-gradient(circle at 38% 2%, rgba(255, 255, 255, 0.024), rgba(0, 0, 0, 0) 28%), none",
+      "area": 1805760
+    }
+  ],
+  "glass": [
+    {
+      "backdropFilter": "blur(18px)",
+      "background": "rgba(24, 25, 27, 0.97)",
+      "border": "1px solid rgba(255, 255, 255, 0.18)",
+      "borderRadius": "13px",
+      "boxShadow": "rgba(0, 0, 0, 0.58) 0px 24px 90px 0px",
+      "area": 69803
+    }
+  ]
+}

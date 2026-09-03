@@ -1,0 +1,34 @@
+<template>
+  <div data-hf-id="hf-0chz" id="root" data-composition-id="04-bring-your-agent" data-width="1920" data-height="1080" data-duration="12.617">
+    <div data-hf-id="hf-0qqs" id="f04-ground" class="clip ground" data-start="0" data-duration="12.617" data-track-index="0"></div>
+    <section data-hf-id="hf-mfzf" id="f04-scene" class="clip stage" data-start="0" data-duration="12.617" data-track-index="1">
+      <div data-hf-id="hf-84tp" class="kicker"><b data-hf-id="hf-u3lo">✱</b> BRING YOUR AGENT</div>
+      <div data-hf-id="hf-3en8" class="receipt">
+        <div data-hf-id="hf-cvlf" class="receipt-head"><span data-hf-id="hf-y6uf">WEBMCP RECEIPT</span><span data-hf-id="hf-r7bq" id="f04-live">WORKING</span></div>
+        <div data-hf-id="hf-cp3y" class="step" id="f04-step1"><i data-hf-id="hf-wt6k"></i><span data-hf-id="hf-7e1e">Discover contextual tools</span><b data-hf-id="hf-27a2">01</b></div>
+        <div data-hf-id="hf-8qzx" class="step" id="f04-step2"><i data-hf-id="hf-zeb8"></i><span data-hf-id="hf-s3nv">Start Session</span><b data-hf-id="hf-2ll3">02</b></div>
+        <div data-hf-id="hf-7zc4" class="step" id="f04-step3"><i data-hf-id="hf-y7e5"></i><span data-hf-id="hf-1uv8">Join workspace</span><b data-hf-id="hf-2zw4">03</b></div>
+        <div data-hf-id="hf-j6r7" id="f04-connected" class="connected"><strong data-hf-id="hf-md0b">✓</strong> CODEX CONNECTED</div>
+      </div>
+      <div data-hf-id="hf-cdmk" class="screen"><img data-hf-id="hf-4kgj" src="assets/live-collaboration.png" alt="Codex connected to a VibeStudio Session"><div data-hf-id="hf-nbft" id="f04-pair" class="pair"><span data-hf-id="hf-w1zk">YOU</span><i data-hf-id="hf-ylp6"></i><span data-hf-id="hf-q9ao">CODEX</span></div></div>
+      <div data-hf-id="hf-xbqp" id="f04-thesis" class="thesis">The agent you already use.<small data-hf-id="hf-t9o4">The same visible work.</small></div>
+    </section>
+    <style>
+      @font-face{font-family:Geist;src:url('assets/fonts/geist.woff2')}@font-face{font-family:GeistMono;src:url('assets/fonts/geist-mono.woff2')}
+      #root{position:relative;width:1920px;height:1080px;overflow:hidden;container-type:size;font-family:Geist,sans-serif;color:#f4f1eb}.ground{position:absolute;inset:0;background:#151617}.stage{position:absolute;inset:0;padding:70px 78px 185px;box-sizing:border-box}.kicker{font:600 25px GeistMono;letter-spacing:.16em}.kicker b{color:#e85d49;margin-right:12px}.receipt{position:absolute;left:82px;top:190px;width:480px;background:#f4f1eb;color:#151617;border-radius:12px;padding:30px;box-sizing:border-box}.receipt-head{display:flex;justify-content:space-between;padding-bottom:24px;border-bottom:1px solid rgba(21,22,23,.12);font:600 20px GeistMono;letter-spacing:.1em}.receipt-head span:last-child{color:#e85d49}.step{display:flex;align-items:center;gap:16px;padding:24px 0;border-bottom:1px solid rgba(21,22,23,.1);font-size:25px;opacity:.28}.step i{width:20px;height:20px;border:2px solid rgba(21,22,23,.28);border-radius:50%}.step b{margin-left:auto;font:600 18px GeistMono}.connected{margin-top:26px;padding:20px;background:#151617;color:#f4f1eb;border-radius:8px;font:600 22px GeistMono;letter-spacing:.06em;opacity:0}.connected strong{color:#e85d49;margin-right:12px}.screen{position:absolute;left:610px;right:78px;top:150px;height:650px;border:1px solid rgba(244,241,235,.16);border-radius:12px;overflow:hidden;background:#111}.screen img{width:100%;height:100%;object-fit:cover;object-position:center}.pair{position:absolute;right:30px;top:28px;display:flex;align-items:center;gap:15px;padding:14px 18px;border-radius:999px;background:#151617;border:1px solid rgba(244,241,235,.2);font:600 18px GeistMono;letter-spacing:.12em;opacity:0}.pair i{width:36px;height:2px;background:#e85d49}.thesis{position:absolute;right:82px;bottom:184px;font-size:42px;letter-spacing:-.03em;opacity:0}.thesis small{display:block;font:400 22px GeistMono;color:rgba(244,241,235,.5);margin-top:8px}
+    </style>
+    <script>
+      (()=>{const tl=gsap.timeline({paused:true});
+        tl.fromTo('#f04-scene .receipt',{x:-36,opacity:0},{x:0,opacity:1,duration:.65,ease:'power3.out'},0)
+          .fromTo('#f04-scene .screen',{x:40,opacity:0},{x:0,opacity:1,duration:.75,ease:'power3.out'},.2)
+          .to('#f04-step1',{opacity:1,duration:.3},1.3).to('#f04-step1 i',{backgroundColor:'#e85d49',borderColor:'#e85d49',duration:.25},2.3)
+          .to('#f04-step2',{opacity:1,duration:.3},2.55).to('#f04-step2 i',{backgroundColor:'#e85d49',borderColor:'#e85d49',duration:.25},3.75)
+          .to('#f04-step3',{opacity:1,duration:.3},4.05).to('#f04-step3 i',{backgroundColor:'#e85d49',borderColor:'#e85d49',duration:.25},5.05)
+          .to('#f04-live',{opacity:0,duration:.2},5.15).fromTo('#f04-connected',{y:16,opacity:0},{y:0,opacity:1,duration:.55,ease:'back.out(1.2)'},5.25)
+          .fromTo('#f04-pair',{scale:.92,opacity:0},{scale:1,opacity:1,duration:.55,ease:'back.out(1.3)'},8.0)
+          .fromTo('#f04-thesis',{x:30,opacity:0},{x:0,opacity:1,duration:.65,ease:'power3.out'},9.9);
+        window.__timelines['04-bring-your-agent']=tl;
+      })();
+    </script>
+  </div>
+</template>

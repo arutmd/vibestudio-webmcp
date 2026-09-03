@@ -1,0 +1,31 @@
+node_modules
+.next
+.next-*/
+out
+.env.local
+.env*.local
+.vibestudio-demo/
+.devpost-hackathon-state.json
+.superpowers/
+data-seeds/
+.playwright-cli/
+.screenshots/
+tsconfig.tsbuildinfo
+*.log
+.DS_Store
+
+# Local demo-video build dependencies and generated review caches
+videos/**/.venv*/
+videos/**/.hyperframes/
+videos/**/.thumbnails/
+videos/**/.waveform-cache/
+videos/**/snapshots-review/
+videos/**/assets/voice/
+videos/**/*.mp4
+
+# Machine-specific launch helpers and generated local path receipts
+scripts/start-arutlee-studio.applescript
+scripts/stop-arutlee-studio.applescript
+scripts/start-studio-background.sh
+scripts/stop-studio-background.sh
+public/template-studio/generated/*.txt

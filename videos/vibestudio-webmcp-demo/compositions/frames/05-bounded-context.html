@@ -1,0 +1,27 @@
+<template>
+  <div data-hf-id="hf-ifay" id="root" data-composition-id="05-bounded-context" data-width="1920" data-height="1080" data-duration="12.005">
+    <div data-hf-id="hf-eo9k" id="f05-ground" class="clip ground" data-start="0" data-duration="12.005" data-track-index="0"></div>
+    <section data-hf-id="hf-ylrn" id="f05-scene" class="clip stage" data-start="0" data-duration="12.005" data-track-index="1">
+      <div data-hf-id="hf-gmsk" class="kicker"><b data-hf-id="hf-u3lo">✱</b> USEFUL CONTEXT · CLEAR BOUNDARY</div>
+      <div data-hf-id="hf-4x20" id="f05-left" class="card left"><div data-hf-id="hf-hqgx" class="card-label">THIS PIECE</div><div data-hf-id="hf-csf6" class="number">10 <span data-hf-id="hf-ligc">RULES</span></div><p data-hf-id="hf-re18">Identity · voice · taste · production</p><div data-hf-id="hf-7yp6" class="badge">SHARED FOR THIS TASK</div></div>
+      <div data-hf-id="hf-fdt4" id="f05-right" class="card right"><div data-hf-id="hf-6ukc" class="card-label">CREATOR MEMORY</div><div data-hf-id="hf-ztlg" class="lock">⌑</div><p data-hf-id="hf-m0p5">Editable · inspectable · protected</p><div data-hf-id="hf-u7i4" class="badge">STAYS WITH YOU</div></div>
+      <div data-hf-id="hf-orrq" id="f05-boundary" class="boundary"><i data-hf-id="hf-wt6k"></i><span data-hf-id="hf-rosj">WEBMCP</span><i data-hf-id="hf-zeb8"></i></div>
+      <div data-hf-id="hf-swqy" id="f05-thread" class="thread"></div>
+    </section>
+    <style>
+      @font-face{font-family:Geist;src:url('assets/fonts/geist.woff2')}@font-face{font-family:GeistMono;src:url('assets/fonts/geist-mono.woff2')}
+      #root{position:relative;width:1920px;height:1080px;overflow:hidden;container-type:size;font-family:Geist,sans-serif;color:#f4f1eb}.ground{position:absolute;inset:0;background:#151617}.stage{position:absolute;inset:0;padding:72px 82px 185px;box-sizing:border-box}.kicker{font:600 25px GeistMono;letter-spacing:.16em}.kicker b{color:#e85d49;margin-right:12px}.card{position:absolute;top:245px;width:650px;height:490px;border:1px solid rgba(244,241,235,.16);border-radius:12px;padding:44px;box-sizing:border-box;background:#1b1c1d}.left{left:110px}.right{right:110px}.card-label{font:600 24px GeistMono;letter-spacing:.14em;color:rgba(244,241,235,.55)}.number{font-size:150px;letter-spacing:-.06em;margin-top:45px}.number span{font:600 24px GeistMono;letter-spacing:.14em}.card p{font-size:30px;color:rgba(244,241,235,.68);margin-top:26px}.badge{position:absolute;bottom:40px;left:44px;border:1px solid rgba(244,241,235,.2);padding:15px 20px;border-radius:999px;font:600 18px GeistMono;letter-spacing:.1em;opacity:0}.lock{font:400 154px GeistMono;margin:42px 0 4px;color:#f4f1eb}.boundary{position:absolute;left:850px;top:300px;width:220px;height:380px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;color:#e85d49;font:600 18px GeistMono;letter-spacing:.15em}.boundary i{display:block;width:1px;height:130px;background:rgba(244,241,235,.22)}.thread{position:absolute;left:760px;top:454px;width:400px;height:3px;background:#e85d49;transform-origin:right center;opacity:0}
+    </style>
+    <script>
+      (()=>{const tl=gsap.timeline({paused:true});
+        tl.fromTo('#f05-left',{x:-100,rotateY:10,scale:.88,opacity:0},{x:0,rotateY:0,scale:1,opacity:1,duration:1,ease:'power3.out'},.8)
+          .fromTo('#f05-right',{x:100,rotateY:-10,scale:.88,opacity:0},{x:0,rotateY:0,scale:1,opacity:1,duration:1,ease:'power3.out'},1.0)
+          .fromTo('#f05-boundary',{opacity:0},{opacity:1,duration:.55},3.1)
+          .fromTo('#f05-thread',{scaleX:0,opacity:1},{scaleX:1,opacity:1,duration:1.5,ease:'power2.inOut'},4.0)
+          .fromTo('#f05-left .badge',{scale:.9,opacity:0},{scale:1,opacity:1,duration:.55,ease:'back.out(1.4)'},6.7)
+          .fromTo('#f05-right .badge',{scale:.9,opacity:0},{scale:1,opacity:1,duration:.55,ease:'back.out(1.4)'},7.05);
+        window.__timelines['05-bounded-context']=tl;
+      })();
+    </script>
+  </div>
+</template>

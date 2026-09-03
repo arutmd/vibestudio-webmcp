@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vibestudio-webmcp
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+      - key: VIBESTUDIO_DEMO_MODE
+        value: "1"

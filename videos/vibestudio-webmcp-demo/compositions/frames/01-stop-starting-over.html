@@ -1,0 +1,32 @@
+<template>
+  <div data-hf-id="hf-oz19" id="root" data-composition-id="01-stop-starting-over" data-width="1920" data-height="1080" data-duration="7.333">
+    <div data-hf-id="hf-brko" id="f01-ground" class="clip ground" data-start="0" data-duration="7.333" data-track-index="0"></div>
+    <section data-hf-id="hf-tyid" id="f01-scene" class="clip stage" data-start="0" data-duration="7.333" data-track-index="1">
+      <div data-hf-id="hf-uoks" class="kicker"><b data-hf-id="hf-u3lo">✱</b> THE REPEATED BRIEF</div>
+      <div data-hf-id="hf-4g0e" class="ghost ghost-a" data-layout-allow-occlusion="" data-layout-allow-overlap="">Audience · voice · visual taste · goals</div>
+      <div data-hf-id="hf-okvf" class="ghost ghost-b" data-layout-allow-occlusion="" data-layout-allow-overlap="">Audience · voice · visual taste · goals</div>
+      <div data-hf-id="hf-3k5u" class="prompt">
+        <div data-hf-id="hf-wvjk" class="prompt-top"><span data-hf-id="hf-swvj" data-layout-allow-overlap="">NEW PIECE</span><span data-hf-id="hf-bxkv">01 / AGAIN</span></div>
+        <div data-hf-id="hf-naa0" id="f01-typing" class="typing">Explain my brand again</div><span data-hf-id="hf-7rqt" id="f01-caret" class="caret"></span>
+        <div data-hf-id="hf-9zki" id="f01-zero" class="zero">START FROM <em data-hf-id="hf-mh7d">ZERO</em></div>
+        <div data-hf-id="hf-p4gp" id="f01-thesis" class="thesis" data-layout-allow-overlap="">Your work should remember you.</div>
+      </div>
+    </section>
+    <style>
+      @font-face{font-family:Geist;src:url('assets/fonts/geist.woff2')}@font-face{font-family:GeistMono;src:url('assets/fonts/geist-mono.woff2')}
+      #root{position:relative;width:1920px;height:1080px;overflow:hidden;container-type:size;color:#151617;font-family:Geist,sans-serif}.ground{position:absolute;inset:0;background:#151617}.stage{position:absolute;inset:0;padding:76px 82px 184px;box-sizing:border-box}.kicker{font:600 26px GeistMono;letter-spacing:.16em;color:#f4f1eb}.kicker b{color:#e85d49;margin-right:12px}.prompt{position:absolute;left:245px;right:245px;top:238px;height:500px;background:#f4f1eb;border:1px solid rgba(244,241,235,.18);border-radius:12px;padding:48px 58px;box-sizing:border-box;box-shadow:0 20px 80px rgba(0,0,0,.22)}.prompt-top{display:flex;justify-content:space-between;font:600 23px GeistMono;letter-spacing:.12em;color:rgba(21,22,23,.68);padding-bottom:30px;border-bottom:1px solid rgba(21,22,23,.12)}.typing,.zero,.thesis{position:absolute;left:58px;right:58px;top:175px;font-size:82px;line-height:1.05;letter-spacing:-.035em}.caret{position:absolute;left:745px;top:176px;width:5px;height:84px;background:#e85d49}.zero{font:600 70px GeistMono;letter-spacing:-.045em;opacity:0}.zero em{font-style:normal;color:#e85d49}.thesis{font-size:104px;max-width:1120px;opacity:0}.ghost{position:absolute;left:305px;width:1220px;height:92px;border:1px solid rgba(244,241,235,.18);border-radius:10px;color:rgba(244,241,235,.58);font:400 30px GeistMono;padding:28px 38px;box-sizing:border-box}.ghost-a{top:178px}.ghost-b{top:196px}
+    </style>
+    <script>
+      (()=>{const tl=gsap.timeline({paused:true});
+        tl.fromTo('#f01-scene .prompt',{y:34,scale:.96,opacity:0},{y:0,scale:1,opacity:1,duration:.7,ease:'power3.out'},0)
+          .fromTo('#f01-scene .ghost-a',{y:10,opacity:0},{y:0,opacity:.35,duration:.5},1.1)
+          .fromTo('#f01-scene .ghost-b',{y:10,opacity:0},{y:0,opacity:.22,duration:.5},1.45)
+          .to('#f01-typing',{opacity:0,duration:.25},2.65).to('#f01-caret',{opacity:0,duration:.1},2.75)
+          .fromTo('#f01-zero',{opacity:0,scale:.92},{opacity:1,scale:1,duration:.55,ease:'back.out(1.4)'},3.0)
+          .to('#f01-zero',{scale:.12,opacity:0,duration:.55,ease:'power3.in'},4.35)
+          .fromTo('#f01-thesis',{opacity:0,y:32},{opacity:1,y:0,duration:.8,ease:'power3.out'},4.75);
+        window.__timelines['01-stop-starting-over']=tl;
+      })();
+    </script>
+  </div>
+</template>

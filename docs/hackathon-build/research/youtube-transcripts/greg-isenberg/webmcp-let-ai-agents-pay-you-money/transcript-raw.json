@@ -1,0 +1,3737 @@
+[
+  {
+    "text": "Think about this. AI agents are about to",
+    "start": 0.4,
+    "duration": 4.48
+  },
+  {
+    "text": "become a new kind of visitor on the",
+    "start": 3.2,
+    "duration": 3.44
+  },
+  {
+    "text": "internet. And I think billions of",
+    "start": 4.88,
+    "duration": 4.16
+  },
+  {
+    "text": "dollars of wealth will change hands in",
+    "start": 6.64,
+    "duration": 4.72
+  },
+  {
+    "text": "the process because millions of AI",
+    "start": 9.04,
+    "duration": 4.08
+  },
+  {
+    "text": "agents are going to be browsing and",
+    "start": 11.36,
+    "duration": 4.08
+  },
+  {
+    "text": "buying on the internet. But the internet",
+    "start": 13.12,
+    "duration": 4.079
+  },
+  {
+    "text": "isn't designed for them to do [music]",
+    "start": 15.44,
+    "duration": 3.679
+  },
+  {
+    "text": "that. And that creates a really",
+    "start": 17.199,
+    "duration": 4.401
+  },
+  {
+    "text": "interesting question, which is what does",
+    "start": 19.119,
+    "duration": 5.441
+  },
+  {
+    "text": "an agent ready website or app look like?",
+    "start": 21.6,
+    "duration": 5.919
+  },
+  {
+    "text": "And how do you actually build one? Well,",
+    "start": 24.56,
+    "duration": 5.28
+  },
+  {
+    "text": "there's this new little thing by Google",
+    "start": 27.519,
+    "duration": 4.72
+  },
+  {
+    "text": "called WebMCP, and I'm honestly",
+    "start": 29.84,
+    "duration": 4.559
+  },
+  {
+    "text": "surprised more people aren't talking",
+    "start": 32.239,
+    "duration": 4.48
+  },
+  {
+    "text": "about it. The simple idea is that",
+    "start": 34.399,
+    "duration": 5.441
+  },
+  {
+    "text": "websites can expose cleaner actions for",
+    "start": 36.719,
+    "duration": 5.601
+  },
+  {
+    "text": "AI agents. So, instead of an AI agent",
+    "start": 39.84,
+    "duration": 4.239
+  },
+  {
+    "text": "trying to figure out a page like a human",
+    "start": 42.32,
+    "duration": 3.919
+  },
+  {
+    "text": "being, the site can basically tell an",
+    "start": 44.079,
+    "duration": 4
+  },
+  {
+    "text": "agent, here's how to search, here's how",
+    "start": 46.239,
+    "duration": 3.761
+  },
+  {
+    "text": "to book, here's how to buy. So today I",
+    "start": 48.079,
+    "duration": 3.601
+  },
+  {
+    "text": "have my friend Vinnie come on and just",
+    "start": 50,
+    "duration": 4.64
+  },
+  {
+    "text": "clearly explain what WebMCP is, how it",
+    "start": 51.68,
+    "duration": 5.92
+  },
+  {
+    "text": "differs from MCPs, why it matters, where",
+    "start": 54.64,
+    "duration": 5.28
+  },
+  {
+    "text": "the opportunities lie, and I give you",
+    "start": 57.6,
+    "duration": 4.08
+  },
+  {
+    "text": "two startup ideas that I think could",
+    "start": 59.92,
+    "duration": 4.239
+  },
+  {
+    "text": "cash flow that you can start today.",
+    "start": 61.68,
+    "duration": 4.32
+  },
+  {
+    "text": "Enjoy the episode. I hope it gets the",
+    "start": 64.159,
+    "duration": 3.361
+  },
+  {
+    "text": "creative juices flowing. And if you",
+    "start": 66,
+    "duration": 3.92
+  },
+  {
+    "text": "haven't liked, comment, and subscribe,",
+    "start": 67.52,
+    "duration": 4.72
+  },
+  {
+    "text": "what are you doing? This stuff should be",
+    "start": 69.92,
+    "duration": 3.92
+  },
+  {
+    "text": "paid. We make it free. I just want to",
+    "start": 72.24,
+    "duration": 4
+  },
+  {
+    "text": "see you win. Let's go. And I'll see you",
+    "start": 73.84,
+    "duration": 4.72
+  },
+  {
+    "text": "at the end of the episode. [music]",
+    "start": 76.24,
+    "duration": 5.96
+  },
+  {
+    "text": "All I find is",
+    "start": 78.56,
+    "duration": 3.64
+  },
+  {
+    "text": "[music]",
+    "start": 82.53,
+    "duration": 3.07
+  },
+  {
+    "text": "baby.",
+    "start": 83.36,
+    "duration": 5.68
+  },
+  {
+    "text": ">> Thank the MR gods. Vinnie is back on the",
+    "start": 85.6,
+    "duration": 7.199
+  },
+  {
+    "text": "pod to explain something very very very",
+    "start": 89.04,
+    "duration": 7.039
+  },
+  {
+    "text": "powerful. Web MCP. Vince, you you",
+    "start": 92.799,
+    "duration": 5.201
+  },
+  {
+    "text": "actually brought it to my attention.",
+    "start": 96.079,
+    "duration": 4
+  },
+  {
+    "text": "Vinnie, by the end of this episode, what",
+    "start": 98,
+    "duration": 3.439
+  },
+  {
+    "text": "are people going to learn?",
+    "start": 100.079,
+    "duration": 2.4
+  },
+  {
+    "text": ">> All right. They're going to learn how to",
+    "start": 101.439,
+    "duration": 4.161
+  },
+  {
+    "text": "use WebMCP, which is kind of exactly",
+    "start": 102.479,
+    "duration": 6
+  },
+  {
+    "text": "like it sounds. it's MCP but in the UI",
+    "start": 105.6,
+    "duration": 5.12
+  },
+  {
+    "text": "in the browser and this is like a brand",
+    "start": 108.479,
+    "duration": 4.64
+  },
+  {
+    "text": "new experimental feature from um Google",
+    "start": 110.72,
+    "duration": 5.2
+  },
+  {
+    "text": "and Microsoft. So I really think this is",
+    "start": 113.119,
+    "duration": 4.801
+  },
+  {
+    "text": "a first mover advantage here. So if you",
+    "start": 115.92,
+    "duration": 3.68
+  },
+  {
+    "text": "can learn this stuff you're really",
+    "start": 117.92,
+    "duration": 3.28
+  },
+  {
+    "text": "bringing um you're getting the skills",
+    "start": 119.6,
+    "duration": 4.4
+  },
+  {
+    "text": "that you need to bring stuff to market",
+    "start": 121.2,
+    "duration": 4.32
+  },
+  {
+    "text": "that is emerging that's going to",
+    "start": 124,
+    "duration": 3.92
+  },
+  {
+    "text": "probably be uh the next big trend. So I",
+    "start": 125.52,
+    "duration": 4.239
+  },
+  {
+    "text": "think this is a really cool thing. So",
+    "start": 127.92,
+    "duration": 3.44
+  },
+  {
+    "text": "Vince is going to actually explain to",
+    "start": 129.759,
+    "duration": 4.881
+  },
+  {
+    "text": "you in a clear way what WebMCP is, how",
+    "start": 131.36,
+    "duration": 4.959
+  },
+  {
+    "text": "to use it, and at the end of the",
+    "start": 134.64,
+    "duration": 3.12
+  },
+  {
+    "text": "episode, I'm going to share with you two",
+    "start": 136.319,
+    "duration": 3.601
+  },
+  {
+    "text": "startup ideas, cash flowing startup",
+    "start": 137.76,
+    "duration": 5.44
+  },
+  {
+    "text": "ideas that I think could use WebMCP that",
+    "start": 139.92,
+    "duration": 5.28
+  },
+  {
+    "text": "you can build today. That'll be at the",
+    "start": 143.2,
+    "duration": 4.56
+  },
+  {
+    "text": "end. Vince, you start them off. All",
+    "start": 145.2,
+    "duration": 4.56
+  },
+  {
+    "text": "right, cool. So, let me start from like",
+    "start": 147.76,
+    "duration": 5.119
+  },
+  {
+    "text": "a problem I had myself. Um, when I heard",
+    "start": 149.76,
+    "duration": 5.119
+  },
+  {
+    "text": "about WebMCP, the first thing that came",
+    "start": 152.879,
+    "duration": 4.72
+  },
+  {
+    "text": "to mind is this shop that I've got here.",
+    "start": 154.879,
+    "duration": 5.041
+  },
+  {
+    "text": "Um, it's an espresso machines and gear",
+    "start": 157.599,
+    "duration": 4.561
+  },
+  {
+    "text": "shop. So, I was buying an an espresso",
+    "start": 159.92,
+    "duration": 4.48
+  },
+  {
+    "text": "machine and it has like a lot of",
+    "start": 162.16,
+    "duration": 4.64
+  },
+  {
+    "text": "specifications. It's got a a lot of gear",
+    "start": 164.4,
+    "duration": 5.28
+  },
+  {
+    "text": "and accessories and figuring out which",
+    "start": 166.8,
+    "duration": 5.68
+  },
+  {
+    "text": "one's right for me. Um, and also which",
+    "start": 169.68,
+    "duration": 5.76
+  },
+  {
+    "text": "accessories fit was kind of a pain. So,",
+    "start": 172.48,
+    "duration": 5.28
+  },
+  {
+    "text": "it was a lot of back and forth googling,",
+    "start": 175.44,
+    "duration": 5.84
+  },
+  {
+    "text": "also putting stuff into um an agent or",
+    "start": 177.76,
+    "duration": 6.32
+  },
+  {
+    "text": "chat GBT or whatever and like does this",
+    "start": 181.28,
+    "duration": 4.879
+  },
+  {
+    "text": "fit? Will this work? So, I thought, oh,",
+    "start": 184.08,
+    "duration": 5.12
+  },
+  {
+    "text": "cool. This is a great um use case for",
+    "start": 186.159,
+    "duration": 4.321
+  },
+  {
+    "text": "something like this where we could build",
+    "start": 189.2,
+    "duration": 5.44
+  },
+  {
+    "text": "a shop with WebMCP tools in it that your",
+    "start": 190.48,
+    "duration": 6.399
+  },
+  {
+    "text": "agent can talk to. So you can bring any",
+    "start": 194.64,
+    "duration": 4.4
+  },
+  {
+    "text": "agent that you're using which is whether",
+    "start": 196.879,
+    "duration": 6.161
+  },
+  {
+    "text": "it's like claude code or chatgpt",
+    "start": 199.04,
+    "duration": 6
+  },
+  {
+    "text": "whatever these um whatever agents are",
+    "start": 203.04,
+    "duration": 4.08
+  },
+  {
+    "text": "out there maybe Grockbot and you can",
+    "start": 205.04,
+    "duration": 4.479
+  },
+  {
+    "text": "talk to the website and ask it stuff.",
+    "start": 207.12,
+    "duration": 4.64
+  },
+  {
+    "text": "So, uh, let me just show an example real",
+    "start": 209.519,
+    "duration": 5.841
+  },
+  {
+    "text": "quick. And, um, so I want to upgrade",
+    "start": 211.76,
+    "duration": 7.199
+  },
+  {
+    "text": "from my current Mara X machine. And I",
+    "start": 215.36,
+    "duration": 5.76
+  },
+  {
+    "text": "want to get one that's able to make two",
+    "start": 218.959,
+    "duration": 4.801
+  },
+  {
+    "text": "flat whites a day easily and fits on my",
+    "start": 221.12,
+    "duration": 4.72
+  },
+  {
+    "text": "counter space, which is about 32 cm",
+    "start": 223.76,
+    "duration": 2.559
+  },
+  {
+    "text": "wide.",
+    "start": 225.84,
+    "duration": 3.039
+  },
+  {
+    "text": ">> By the way, in simplest, like in the",
+    "start": 226.319,
+    "duration": 4.081
+  },
+  {
+    "text": "simplest form, correct me if I'm wrong,",
+    "start": 228.879,
+    "duration": 4.161
+  },
+  {
+    "text": "Vince, but web MCP is basically just",
+    "start": 230.4,
+    "duration": 6.16
+  },
+  {
+    "text": "websites with agent buttons. So you're",
+    "start": 233.04,
+    "duration": 6.96
+  },
+  {
+    "text": "we're making websites agent readable and",
+    "start": 236.56,
+    "duration": 5.759
+  },
+  {
+    "text": "agent actionable. Is that right?",
+    "start": 240,
+    "duration": 4.08
+  },
+  {
+    "text": ">> Exactly. And it's not like this wasn't",
+    "start": 242.319,
+    "duration": 3.521
+  },
+  {
+    "text": "available before, but it was available",
+    "start": 244.08,
+    "duration": 4.799
+  },
+  {
+    "text": "in a lot like clunkier way. So um you've",
+    "start": 245.84,
+    "duration": 5.759
+  },
+  {
+    "text": "got computer use or you've also got",
+    "start": 248.879,
+    "duration": 5.841
+  },
+  {
+    "text": "agents that can uh kind of browse and",
+    "start": 251.599,
+    "duration": 5.2
+  },
+  {
+    "text": "use a browser and and go through",
+    "start": 254.72,
+    "duration": 4.239
+  },
+  {
+    "text": "websites, click buttons, but before they",
+    "start": 256.799,
+    "duration": 5.201
+  },
+  {
+    "text": "had to do it in a very um not so",
+    "start": 258.959,
+    "duration": 4.401
+  },
+  {
+    "text": "efficient way. So, they're they're",
+    "start": 262,
+    "duration": 2.88
+  },
+  {
+    "text": "getting the entire DOM, which means",
+    "start": 263.36,
+    "duration": 3.04
+  },
+  {
+    "text": "they're getting all the code from the",
+    "start": 264.88,
+    "duration": 3.52
+  },
+  {
+    "text": "website and they're like scanning",
+    "start": 266.4,
+    "duration": 3.84
+  },
+  {
+    "text": "through it and finding where to click,",
+    "start": 268.4,
+    "duration": 3.6
+  },
+  {
+    "text": "taking screenshots and stuff. But look",
+    "start": 270.24,
+    "duration": 3.12
+  },
+  {
+    "text": "at that. What just happened right here",
+    "start": 272,
+    "duration": 4.96
+  },
+  {
+    "text": "on the screen, it manipulated the the",
+    "start": 273.36,
+    "duration": 5.76
+  },
+  {
+    "text": "website, was able to find two machines,",
+    "start": 276.96,
+    "duration": 3.92
+  },
+  {
+    "text": "put them side by side, and then it",
+    "start": 279.12,
+    "duration": 4.48
+  },
+  {
+    "text": "highlighted really cool feature,",
+    "start": 280.88,
+    "duration": 5.52
+  },
+  {
+    "text": "highlighted what features or what specs",
+    "start": 283.6,
+    "duration": 5.84
+  },
+  {
+    "text": "about the machines fit my request that I",
+    "start": 286.4,
+    "duration": 5.359
+  },
+  {
+    "text": "just had. So, it's like the porta filter",
+    "start": 289.44,
+    "duration": 5.28
+  },
+  {
+    "text": "fit, which is um going to fit like an",
+    "start": 291.759,
+    "duration": 4.801
+  },
+  {
+    "text": "accessory you have, and then will it",
+    "start": 294.72,
+    "duration": 4.24
+  },
+  {
+    "text": "make the two flat whites like you asked,",
+    "start": 296.56,
+    "duration": 3.84
+  },
+  {
+    "text": "and does it have the right width? Will",
+    "start": 298.96,
+    "duration": 3.92
+  },
+  {
+    "text": "it fit on your counter spot? So, like",
+    "start": 300.4,
+    "duration": 5.12
+  },
+  {
+    "text": "that's really cool. And before to do all",
+    "start": 302.88,
+    "duration": 4.24
+  },
+  {
+    "text": "that, well, first of all, it wouldn't be",
+    "start": 305.52,
+    "duration": 3.679
+  },
+  {
+    "text": "able to manipulate a page in this way as",
+    "start": 307.12,
+    "duration": 3.68
+  },
+  {
+    "text": "easily. And also, it'd have to go",
+    "start": 309.199,
+    "duration": 3.681
+  },
+  {
+    "text": "through all this scanning, all this code",
+    "start": 310.8,
+    "duration": 5.119
+  },
+  {
+    "text": "reading. Whereas this now with web MCP",
+    "start": 312.88,
+    "duration": 4.8
+  },
+  {
+    "text": "there's a set of tools like the ones",
+    "start": 315.919,
+    "duration": 3.12
+  },
+  {
+    "text": "that are just popping up on the screen",
+    "start": 317.68,
+    "duration": 4.64
+  },
+  {
+    "text": "here and um those are the ones that you",
+    "start": 319.039,
+    "duration": 5.6
+  },
+  {
+    "text": "make available to the agent. So it gives",
+    "start": 322.32,
+    "duration": 5.599
+  },
+  {
+    "text": "it a really uh efficient concise list of",
+    "start": 324.639,
+    "duration": 5.361
+  },
+  {
+    "text": "things that it can do on the website and",
+    "start": 327.919,
+    "duration": 4.401
+  },
+  {
+    "text": "it knows how to do that and it can just",
+    "start": 330,
+    "duration": 4.56
+  },
+  {
+    "text": "do it easily and and you can do some",
+    "start": 332.32,
+    "duration": 5.12
+  },
+  {
+    "text": "really cool creative stuff with this.",
+    "start": 334.56,
+    "duration": 4.24
+  },
+  {
+    "text": ">> Yeah. Yeah. And I think like one of the",
+    "start": 337.44,
+    "duration": 3.199
+  },
+  {
+    "text": "reasons I think this actually matters is",
+    "start": 338.8,
+    "duration": 4.48
+  },
+  {
+    "text": "if you think about SEO, right? It was",
+    "start": 340.639,
+    "duration": 5.12
+  },
+  {
+    "text": "like can Google understand the page and",
+    "start": 343.28,
+    "duration": 6.639
+  },
+  {
+    "text": "then we had uh AEO which is can AI site",
+    "start": 345.759,
+    "duration": 7.041
+  },
+  {
+    "text": "the answer. And now we're entering this",
+    "start": 349.919,
+    "duration": 5.601
+  },
+  {
+    "text": "webmc era which is basically can the",
+    "start": 352.8,
+    "duration": 5.2
+  },
+  {
+    "text": "agent finish the job? And we're what",
+    "start": 355.52,
+    "duration": 5.04
+  },
+  {
+    "text": "we're learning is that websites aren't",
+    "start": 358,
+    "duration": 4.32
+  },
+  {
+    "text": "really optimized. And I think that's why",
+    "start": 360.56,
+    "duration": 6.4
+  },
+  {
+    "text": "Google uh and and Microsoft uh decided",
+    "start": 362.32,
+    "duration": 6.48
+  },
+  {
+    "text": "to build this thing, right? Because they",
+    "start": 366.96,
+    "duration": 4
+  },
+  {
+    "text": "don't want a broken internet to exist.",
+    "start": 368.8,
+    "duration": 2.72
+  },
+  {
+    "text": ">> Mhm.",
+    "start": 370.96,
+    "duration": 2.48
+  },
+  {
+    "text": ">> And I think as like a founder, like why",
+    "start": 371.52,
+    "duration": 4.239
+  },
+  {
+    "text": "does this matter is because there's",
+    "start": 373.44,
+    "duration": 4.879
+  },
+  {
+    "text": "there's, you know, billions",
+    "start": 375.759,
+    "duration": 5.121
+  },
+  {
+    "text": "billions of dollars changing hands on",
+    "start": 378.319,
+    "duration": 5.281
+  },
+  {
+    "text": "these tools, right? Uh or on the",
+    "start": 380.88,
+    "duration": 4.64
+  },
+  {
+    "text": "internet. And if we can optimize some of",
+    "start": 383.6,
+    "duration": 5.599
+  },
+  {
+    "text": "these websites, uh you know, there's",
+    "start": 385.52,
+    "duration": 5.84
+  },
+  {
+    "text": "just there's a lot of opportunity. Yeah.",
+    "start": 389.199,
+    "duration": 5.28
+  },
+  {
+    "text": "And I think I mean maybe the people like",
+    "start": 391.36,
+    "duration": 5.36
+  },
+  {
+    "text": "you and I and the people listening,",
+    "start": 394.479,
+    "duration": 4.321
+  },
+  {
+    "text": "they're more agent native or they're",
+    "start": 396.72,
+    "duration": 5.039
+  },
+  {
+    "text": "more this um kind of early adopters of",
+    "start": 398.8,
+    "duration": 4.56
+  },
+  {
+    "text": "new technology, but we have to remember",
+    "start": 401.759,
+    "duration": 3.841
+  },
+  {
+    "text": "that the web has been around for a",
+    "start": 403.36,
+    "duration": 5.36
+  },
+  {
+    "text": "while. People are used to UIs and",
+    "start": 405.6,
+    "duration": 5.439
+  },
+  {
+    "text": "browsing websites and stuff like that.",
+    "start": 408.72,
+    "duration": 5.36
+  },
+  {
+    "text": "And people don't really want to, the",
+    "start": 411.039,
+    "duration": 5.521
+  },
+  {
+    "text": "majority of web users don't want to use",
+    "start": 414.08,
+    "duration": 5.839
+  },
+  {
+    "text": "just like a CLI tool or or an agent in",
+    "start": 416.56,
+    "duration": 5.199
+  },
+  {
+    "text": "the terminal like this. They want to be",
+    "start": 419.919,
+    "duration": 4.4
+  },
+  {
+    "text": "able to interact with something visual.",
+    "start": 421.759,
+    "duration": 6.321
+  },
+  {
+    "text": "So um this web MCP really makes it uh",
+    "start": 424.319,
+    "duration": 6.801
+  },
+  {
+    "text": "the best path to do that. So will really",
+    "start": 428.08,
+    "duration": 6.399
+  },
+  {
+    "text": "allow for kind of um normal the average",
+    "start": 431.12,
+    "duration": 5.84
+  },
+  {
+    "text": "consumer to adopt agent tools. So, it's",
+    "start": 434.479,
+    "duration": 4.56
+  },
+  {
+    "text": "kind of like meeting them in the middle,",
+    "start": 436.96,
+    "duration": 4
+  },
+  {
+    "text": "right, with the new agent technology and",
+    "start": 439.039,
+    "duration": 3.6
+  },
+  {
+    "text": "the stuff that they're used to.",
+    "start": 440.96,
+    "duration": 3.2
+  },
+  {
+    "text": ">> Cool. What else do we need to know about",
+    "start": 442.639,
+    "duration": 2.801
+  },
+  {
+    "text": "it?",
+    "start": 444.16,
+    "duration": 4.08
+  },
+  {
+    "text": ">> Um, so like one of the big things is um",
+    "start": 445.44,
+    "duration": 6.24
+  },
+  {
+    "text": "like I said is that it's not um scraping",
+    "start": 448.24,
+    "duration": 5.84
+  },
+  {
+    "text": "and parsing the entire DOM. So it",
+    "start": 451.68,
+    "duration": 4.72
+  },
+  {
+    "text": "doesn't have to it's more efficient in",
+    "start": 454.08,
+    "duration": 3.839
+  },
+  {
+    "text": "the way it works. But the other thing",
+    "start": 456.4,
+    "duration": 3.04
+  },
+  {
+    "text": "that's really cool is that these tools",
+    "start": 457.919,
+    "duration": 3.68
+  },
+  {
+    "text": "you can make them conditional. So like",
+    "start": 459.44,
+    "duration": 4.319
+  },
+  {
+    "text": "you see here in this list, we have tools",
+    "start": 461.599,
+    "duration": 3.841
+  },
+  {
+    "text": "that are always available versus logged",
+    "start": 463.759,
+    "duration": 3.601
+  },
+  {
+    "text": "in. This is all happening through the",
+    "start": 465.44,
+    "duration": 4.319
+  },
+  {
+    "text": "browser session, right? So, I've logged",
+    "start": 467.36,
+    "duration": 4.399
+  },
+  {
+    "text": "in. You can see I'm up here. I've logged",
+    "start": 469.759,
+    "duration": 4.16
+  },
+  {
+    "text": "in. These are the tools available. And",
+    "start": 471.759,
+    "duration": 6
+  },
+  {
+    "text": "if I log out, well, then we'll see",
+    "start": 473.919,
+    "duration": 5.68
+  },
+  {
+    "text": "there's only three tools available now,",
+    "start": 477.759,
+    "duration": 4.641
+  },
+  {
+    "text": "right? So this is really cool because um",
+    "start": 479.599,
+    "duration": 5.521
+  },
+  {
+    "text": "one of the big hurdles to doing other",
+    "start": 482.4,
+    "duration": 5.76
+  },
+  {
+    "text": "kind of agent native um approaches like",
+    "start": 485.12,
+    "duration": 6.799
+  },
+  {
+    "text": "an MCP server or um an API is that you",
+    "start": 488.16,
+    "duration": 6.4
+  },
+  {
+    "text": "have to deal with um tokens,",
+    "start": 491.919,
+    "duration": 4.72
+  },
+  {
+    "text": "credentials, people sending sending",
+    "start": 494.56,
+    "duration": 4.8
+  },
+  {
+    "text": "their um their identity through you know",
+    "start": 496.639,
+    "duration": 4.4
+  },
+  {
+    "text": "API keys and tokens and things like",
+    "start": 499.36,
+    "duration": 3.92
+  },
+  {
+    "text": "that. Whereas this you just log in,",
+    "start": 501.039,
+    "duration": 5.44
+  },
+  {
+    "text": "right? So I can log in with my username",
+    "start": 503.28,
+    "duration": 7.12
+  },
+  {
+    "text": "and password and it has access to the",
+    "start": 506.479,
+    "duration": 6.641
+  },
+  {
+    "text": "entire browser session there. So the",
+    "start": 510.4,
+    "duration": 4.639
+  },
+  {
+    "text": "fact that I'm logged in, the agent has",
+    "start": 513.12,
+    "duration": 4
+  },
+  {
+    "text": "to doesn't have to do anything special.",
+    "start": 515.039,
+    "duration": 4.321
+  },
+  {
+    "text": "Um we don't have to connect an MCP",
+    "start": 517.12,
+    "duration": 4.159
+  },
+  {
+    "text": "server and authenticate and all that",
+    "start": 519.36,
+    "duration": 3.599
+  },
+  {
+    "text": "stuff like you have to do with you know",
+    "start": 521.279,
+    "duration": 4.801
+  },
+  {
+    "text": "a typical MCP server or with an API or",
+    "start": 522.959,
+    "duration": 5.041
+  },
+  {
+    "text": "things like that. So, it's like the",
+    "start": 526.08,
+    "duration": 5.68
+  },
+  {
+    "text": "least technical uh approach to making an",
+    "start": 528,
+    "duration": 5.839
+  },
+  {
+    "text": "app or a website or web store agent",
+    "start": 531.76,
+    "duration": 4.96
+  },
+  {
+    "text": "native um but with the most flexibility",
+    "start": 533.839,
+    "duration": 4.481
+  },
+  {
+    "text": "and the most features. So, this",
+    "start": 536.72,
+    "duration": 3.679
+  },
+  {
+    "text": "conditional tool calling all this stuff",
+    "start": 538.32,
+    "duration": 3.6
+  },
+  {
+    "text": "just happens because of the browser",
+    "start": 540.399,
+    "duration": 3.12
+  },
+  {
+    "text": "state and that's a really nice thing.",
+    "start": 541.92,
+    "duration": 2.96
+  },
+  {
+    "text": ">> Yeah, that's really cool. That's just",
+    "start": 543.519,
+    "duration": 3.601
+  },
+  {
+    "text": "like built in because it I mean it makes",
+    "start": 544.88,
+    "duration": 3.44
+  },
+  {
+    "text": "sense, right?",
+    "start": 547.12,
+    "duration": 3.2
+  },
+  {
+    "text": ">> Yep. It's using the whole browser",
+    "start": 548.32,
+    "duration": 3.92
+  },
+  {
+    "text": "session. So, that's really nice. All",
+    "start": 550.32,
+    "duration": 3.84
+  },
+  {
+    "text": "right. So, um, I saw this tweet the",
+    "start": 552.24,
+    "duration": 3.12
+  },
+  {
+    "text": "other day and I've seen this going",
+    "start": 554.16,
+    "duration": 3.76
+  },
+  {
+    "text": "around a lot where people are saying, \"I",
+    "start": 555.36,
+    "duration": 5.12
+  },
+  {
+    "text": "don't want to use your products agent. I",
+    "start": 557.92,
+    "duration": 5.44
+  },
+  {
+    "text": "want my agents to be efficiently enabled",
+    "start": 560.48,
+    "duration": 5.039
+  },
+  {
+    "text": "to use your product.\" And that's exactly",
+    "start": 563.36,
+    "duration": 5.12
+  },
+  {
+    "text": "what we're getting with WebMCP and",
+    "start": 565.519,
+    "duration": 4.721
+  },
+  {
+    "text": "especially for things like web stores",
+    "start": 568.48,
+    "duration": 4.72
+  },
+  {
+    "text": "and stuff like that um, for e-commerce",
+    "start": 570.24,
+    "duration": 5.039
+  },
+  {
+    "text": "um, or maybe even, you know, other",
+    "start": 573.2,
+    "duration": 3.6
+  },
+  {
+    "text": "examples that we'll look at later that",
+    "start": 575.279,
+    "duration": 4.401
+  },
+  {
+    "text": "you that you have prepared for us. So,",
+    "start": 576.8,
+    "duration": 4.88
+  },
+  {
+    "text": "um, this is this is a sentiment that's",
+    "start": 579.68,
+    "duration": 3.92
+  },
+  {
+    "text": "going around on Twitter a lot lately.",
+    "start": 581.68,
+    "duration": 5.12
+  },
+  {
+    "text": "And, um, what does Dylan from Cloudflare",
+    "start": 583.6,
+    "duration": 5.679
+  },
+  {
+    "text": "mean by this? So, we have these like",
+    "start": 586.8,
+    "duration": 4.56
+  },
+  {
+    "text": "different ways an agent can meet an app,",
+    "start": 589.279,
+    "duration": 4.961
+  },
+  {
+    "text": "right? And let me go zoom in real quick",
+    "start": 591.36,
+    "duration": 4.24
+  },
+  {
+    "text": "because we have a lot of them. And",
+    "start": 594.24,
+    "duration": 2.96
+  },
+  {
+    "text": "they're going from headless, you see at",
+    "start": 595.6,
+    "duration": 3.6
+  },
+  {
+    "text": "the bottom here, it says headless. Um,",
+    "start": 597.2,
+    "duration": 6.56
+  },
+  {
+    "text": "so basically running an app via your",
+    "start": 599.2,
+    "duration": 6.4
+  },
+  {
+    "text": "agent without ever seeing the app.",
+    "start": 603.76,
+    "duration": 3.36
+  },
+  {
+    "text": "That's what headless means, right?",
+    "start": 605.6,
+    "duration": 3.6
+  },
+  {
+    "text": "There's no app in the browser. There's",
+    "start": 607.12,
+    "duration": 3.92
+  },
+  {
+    "text": "no website. So, you bring your own",
+    "start": 609.2,
+    "duration": 3.84
+  },
+  {
+    "text": "agent. You can hit a raw API, but",
+    "start": 611.04,
+    "duration": 3.44
+  },
+  {
+    "text": "there's like we said, there's lots of",
+    "start": 613.04,
+    "duration": 3.039
+  },
+  {
+    "text": "things uh you have to deal with",
+    "start": 614.48,
+    "duration": 4.08
+  },
+  {
+    "text": "authentication and the agent has to hold",
+    "start": 616.079,
+    "duration": 4.801
+  },
+  {
+    "text": "an API key and things like that. But",
+    "start": 618.56,
+    "duration": 3.6
+  },
+  {
+    "text": "then you can bring your own agent and",
+    "start": 620.88,
+    "duration": 3.92
+  },
+  {
+    "text": "you can use MCP, which is a typical um",
+    "start": 622.16,
+    "duration": 5.359
+  },
+  {
+    "text": "MCP server, but that's another layer on",
+    "start": 624.8,
+    "duration": 5.279
+  },
+  {
+    "text": "top of your app's back end. And then",
+    "start": 627.519,
+    "duration": 5.921
+  },
+  {
+    "text": "your agent can't manipulate the UI,",
+    "start": 630.079,
+    "duration": 6
+  },
+  {
+    "text": "right? Like we just saw. So those are",
+    "start": 633.44,
+    "duration": 4.399
+  },
+  {
+    "text": "completely headless ways. They're a",
+    "start": 636.079,
+    "duration": 3.361
+  },
+  {
+    "text": "little add a little bit more complexity",
+    "start": 637.839,
+    "duration": 4.56
+  },
+  {
+    "text": "to your to your app or to your product.",
+    "start": 639.44,
+    "duration": 5.44
+  },
+  {
+    "text": "Now we have computer use which is where",
+    "start": 642.399,
+    "duration": 4.56
+  },
+  {
+    "text": "the the bots or the agents literally",
+    "start": 644.88,
+    "duration": 4.48
+  },
+  {
+    "text": "have uh a computer that they can use",
+    "start": 646.959,
+    "duration": 4.32
+  },
+  {
+    "text": "whether it's your local computer or a",
+    "start": 649.36,
+    "duration": 4.08
+  },
+  {
+    "text": "computer in the cloud and they're",
+    "start": 651.279,
+    "duration": 4
+  },
+  {
+    "text": "running through screenshotting stuff and",
+    "start": 653.44,
+    "duration": 4.8
+  },
+  {
+    "text": "clicking stuff on the computer on the UI",
+    "start": 655.279,
+    "duration": 6
+  },
+  {
+    "text": "like uh you would. And um this isn't",
+    "start": 658.24,
+    "duration": 4.96
+  },
+  {
+    "text": "really the most efficient because of",
+    "start": 661.279,
+    "duration": 4
+  },
+  {
+    "text": "like we said before, you've got to go",
+    "start": 663.2,
+    "duration": 4.079
+  },
+  {
+    "text": "through, you've got to screenshot or the",
+    "start": 665.279,
+    "duration": 3.521
+  },
+  {
+    "text": "agent has to screenshot all this stuff.",
+    "start": 667.279,
+    "duration": 3.281
+  },
+  {
+    "text": "So this is slow and fragile at the",
+    "start": 668.8,
+    "duration": 5.599
+  },
+  {
+    "text": "moment. Um we have browser MCP which is",
+    "start": 670.56,
+    "duration": 5.6
+  },
+  {
+    "text": "similar to computer use where like we",
+    "start": 674.399,
+    "duration": 3.281
+  },
+  {
+    "text": "were talking about where you get the",
+    "start": 676.16,
+    "duration": 4.56
+  },
+  {
+    "text": "whole code from the website and it has",
+    "start": 677.68,
+    "duration": 5.2
+  },
+  {
+    "text": "to kind of figure out through the HTML",
+    "start": 680.72,
+    "duration": 4.08
+  },
+  {
+    "text": "code and where it can click and what it",
+    "start": 682.88,
+    "duration": 3.92
+  },
+  {
+    "text": "can do. Again, that's a little bit more",
+    "start": 684.8,
+    "duration": 5.84
+  },
+  {
+    "text": "fragile. WebMCP kind of comes now to be",
+    "start": 686.8,
+    "duration": 5.92
+  },
+  {
+    "text": "somewhere in the middle of that or the",
+    "start": 690.64,
+    "duration": 4
+  },
+  {
+    "text": "things we just mentioned and an inapp",
+    "start": 692.72,
+    "duration": 4.08
+  },
+  {
+    "text": "agent which is what the tweet was",
+    "start": 694.64,
+    "duration": 3.52
+  },
+  {
+    "text": "complaining about, right? Which is that",
+    "start": 696.8,
+    "duration": 4.32
+  },
+  {
+    "text": "like you build an app with a little uh",
+    "start": 698.16,
+    "duration": 7.679
+  },
+  {
+    "text": "agent sidebar and your um the agent in",
+    "start": 701.12,
+    "duration": 6.8
+  },
+  {
+    "text": "that app is the only thing that can",
+    "start": 705.839,
+    "duration": 5.041
+  },
+  {
+    "text": "communicate and deal with it. Right? So",
+    "start": 707.92,
+    "duration": 5.68
+  },
+  {
+    "text": "what they're saying is they want",
+    "start": 710.88,
+    "duration": 4.24
+  },
+  {
+    "text": "something where they can bring their",
+    "start": 713.6,
+    "duration": 4
+  },
+  {
+    "text": "agent and and they can use your product",
+    "start": 715.12,
+    "duration": 4.24
+  },
+  {
+    "text": "efficiently. And that's where I think",
+    "start": 717.6,
+    "duration": 5.28
+  },
+  {
+    "text": "especially for traditional apps with a u",
+    "start": 719.36,
+    "duration": 6.719
+  },
+  {
+    "text": "a front end uh storefront whatever that",
+    "start": 722.88,
+    "duration": 6.32
+  },
+  {
+    "text": "they can then use bring their agent and",
+    "start": 726.079,
+    "duration": 4.641
+  },
+  {
+    "text": "use your app efficiently. So that's",
+    "start": 729.2,
+    "duration": 3.199
+  },
+  {
+    "text": "what's really cool about it. Does that",
+    "start": 730.72,
+    "duration": 4.88
+  },
+  {
+    "text": "make sense? So, if I'm getting this",
+    "start": 732.399,
+    "duration": 6.401
+  },
+  {
+    "text": "right, so WebMCP, you've got your agent.",
+    "start": 735.6,
+    "duration": 5.84
+  },
+  {
+    "text": "There's a set of tools or things that",
+    "start": 738.8,
+    "duration": 6.159
+  },
+  {
+    "text": "you can do basically on the website or",
+    "start": 741.44,
+    "duration": 6.079
+  },
+  {
+    "text": "the app. And then and it's sort of",
+    "start": 744.959,
+    "duration": 4.161
+  },
+  {
+    "text": "limited to that.",
+    "start": 747.519,
+    "duration": 4.161
+  },
+  {
+    "text": ">> The inapp agent, you have your, you",
+    "start": 749.12,
+    "duration": 7.04
+  },
+  {
+    "text": "know, the the the vendor's agent and",
+    "start": 751.68,
+    "duration": 7.68
+  },
+  {
+    "text": ">> um the apps agent, right? And that just",
+    "start": 756.16,
+    "duration": 7.359
+  },
+  {
+    "text": "interfaces with the app's logic and data",
+    "start": 759.36,
+    "duration": 5.68
+  },
+  {
+    "text": "back and forth",
+    "start": 763.519,
+    "duration": 3.76
+  },
+  {
+    "text": ">> and the app is",
+    "start": 765.04,
+    "duration": 4.72
+  },
+  {
+    "text": ">> like isn't that like the the best end",
+    "start": 767.279,
+    "duration": 4.8
+  },
+  {
+    "text": "state of of where we think things are",
+    "start": 769.76,
+    "duration": 3.759
+  },
+  {
+    "text": "going, right?",
+    "start": 772.079,
+    "duration": 3.2
+  },
+  {
+    "text": ">> The inapp agent, you mean?",
+    "start": 773.519,
+    "duration": 2.641
+  },
+  {
+    "text": ">> Yeah.",
+    "start": 775.279,
+    "duration": 3.12
+  },
+  {
+    "text": ">> Well, I mean, you can look at it from",
+    "start": 776.16,
+    "duration": 4.239
+  },
+  {
+    "text": "two different perspectives, right? That",
+    "start": 778.399,
+    "duration": 4.161
+  },
+  {
+    "text": "uh it's nice to have like a little um",
+    "start": 780.399,
+    "duration": 4.801
+  },
+  {
+    "text": "inapp agent there, but um you're",
+    "start": 782.56,
+    "duration": 4.48
+  },
+  {
+    "text": "responsible then for configuring",
+    "start": 785.2,
+    "duration": 3.12
+  },
+  {
+    "text": "everything. and you're responsible for",
+    "start": 787.04,
+    "duration": 3.039
+  },
+  {
+    "text": "the tokens, right? You're responsible",
+    "start": 788.32,
+    "duration": 3.519
+  },
+  {
+    "text": "for setting it all up. Whereas with",
+    "start": 790.079,
+    "duration": 4.241
+  },
+  {
+    "text": "WebMCP, WebMCP is like this really nice",
+    "start": 791.839,
+    "duration": 3.841
+  },
+  {
+    "text": "middle ground where",
+    "start": 794.32,
+    "duration": 2.8
+  },
+  {
+    "text": ">> you don't have to you don't have to pay",
+    "start": 795.68,
+    "duration": 4
+  },
+  {
+    "text": "for tokens, you're giving the app agent",
+    "start": 797.12,
+    "duration": 4.719
+  },
+  {
+    "text": "capabilities, but the user is bringing",
+    "start": 799.68,
+    "duration": 4.8
+  },
+  {
+    "text": "the app the agent that they used and any",
+    "start": 801.839,
+    "duration": 5.521
+  },
+  {
+    "text": "agent will work with it. So, uh, if",
+    "start": 804.48,
+    "duration": 4.96
+  },
+  {
+    "text": "we're moving quickly to this world where",
+    "start": 807.36,
+    "duration": 4.24
+  },
+  {
+    "text": "everyone has an agent that they use at",
+    "start": 809.44,
+    "duration": 4.56
+  },
+  {
+    "text": "work, that they that they use for",
+    "start": 811.6,
+    "duration": 5.76
+  },
+  {
+    "text": "personal p preference, you know, um, you",
+    "start": 814,
+    "duration": 5.92
+  },
+  {
+    "text": "don't have to then separate them from",
+    "start": 817.36,
+    "duration": 4.159
+  },
+  {
+    "text": "that. That's the agent they know and",
+    "start": 819.92,
+    "duration": 3.68
+  },
+  {
+    "text": "they can just use it with your tool via",
+    "start": 821.519,
+    "duration": 5.361
+  },
+  {
+    "text": "WebMCP. So, it's kind of like the nicest",
+    "start": 823.6,
+    "duration": 5.44
+  },
+  {
+    "text": "because it makes it easy for you and it",
+    "start": 826.88,
+    "duration": 3.92
+  },
+  {
+    "text": "makes it most comfortable for them.",
+    "start": 829.04,
+    "duration": 4.16
+  },
+  {
+    "text": "Yeah, I guess the inapp agent was sort",
+    "start": 830.8,
+    "duration": 5.52
+  },
+  {
+    "text": "of like a transitionary",
+    "start": 833.2,
+    "duration": 5.12
+  },
+  {
+    "text": "piece of software",
+    "start": 836.32,
+    "duration": 5.6
+  },
+  {
+    "text": "um that needed to exist for a certain",
+    "start": 838.32,
+    "duration": 5.759
+  },
+  {
+    "text": "amount of time but were like kind of",
+    "start": 841.92,
+    "duration": 4.4
+  },
+  {
+    "text": "growing out of it like the idea of like",
+    "start": 844.079,
+    "duration": 4.081
+  },
+  {
+    "text": "you know you use you know intercom fin",
+    "start": 846.32,
+    "duration": 3.68
+  },
+  {
+    "text": "right which is basically like I think a",
+    "start": 848.16,
+    "duration": 4.4
+  },
+  {
+    "text": "customer support agent like that",
+    "start": 850,
+    "duration": 4.959
+  },
+  {
+    "text": "experience is really really good um but",
+    "start": 852.56,
+    "duration": 4.8
+  },
+  {
+    "text": "now in a world where it's pretty clear",
+    "start": 854.959,
+    "duration": 5.041
+  },
+  {
+    "text": "that over the next 24 36 months everyone",
+    "start": 857.36,
+    "duration": 5.039
+  },
+  {
+    "text": "on consumers are going to have their own",
+    "start": 860,
+    "duration": 4.639
+  },
+  {
+    "text": "agents. It just makes sense that these",
+    "start": 862.399,
+    "duration": 4.56
+  },
+  {
+    "text": "agents are going to need",
+    "start": 864.639,
+    "duration": 5.521
+  },
+  {
+    "text": ">> places to interface with the internet at",
+    "start": 866.959,
+    "duration": 5.601
+  },
+  {
+    "text": "large and the internet is just not",
+    "start": 870.16,
+    "duration": 6.72
+  },
+  {
+    "text": "designed for those agents yet. So, you",
+    "start": 872.56,
+    "duration": 7.36
+  },
+  {
+    "text": "know, that's why WebMP need you know",
+    "start": 876.88,
+    "duration": 3.84
+  },
+  {
+    "text": "exists.",
+    "start": 879.92,
+    "duration": 2.8
+  },
+  {
+    "text": ">> Yeah, I think there is a place for inapp",
+    "start": 880.72,
+    "duration": 4.239
+  },
+  {
+    "text": "agents, right? Like if in [snorts]",
+    "start": 882.72,
+    "duration": 4.799
+  },
+  {
+    "text": "notion for example they offer both but",
+    "start": 884.959,
+    "duration": 5.041
+  },
+  {
+    "text": "like if there's something that is like",
+    "start": 887.519,
+    "duration": 4.481
+  },
+  {
+    "text": "cloudflare dashboard they have an inapp",
+    "start": 890,
+    "duration": 4.8
+  },
+  {
+    "text": "agent and this is so it's like very it's",
+    "start": 892,
+    "duration": 6.48
+  },
+  {
+    "text": "gated to only use their um their tools",
+    "start": 894.8,
+    "duration": 6.08
+  },
+  {
+    "text": "and not to change preferences too much",
+    "start": 898.48,
+    "duration": 3.919
+  },
+  {
+    "text": "so that you don't do anything kind of",
+    "start": 900.88,
+    "duration": 4.079
+  },
+  {
+    "text": "hazardous. I can see where in agents",
+    "start": 902.399,
+    "duration": 4.721
+  },
+  {
+    "text": "might make sense but we're moving into",
+    "start": 904.959,
+    "duration": 3.68
+  },
+  {
+    "text": "this world where it's like we're doing",
+    "start": 907.12,
+    "duration": 3.279
+  },
+  {
+    "text": "so much with agents and we want them to",
+    "start": 908.639,
+    "duration": 4.721
+  },
+  {
+    "text": "keep their context. So you want one tool",
+    "start": 910.399,
+    "duration": 4.401
+  },
+  {
+    "text": "that kind of has the context and",
+    "start": 913.36,
+    "duration": 3.039
+  },
+  {
+    "text": "knowledge and memory of everything that",
+    "start": 914.8,
+    "duration": 3.92
+  },
+  {
+    "text": "you do. And to be able to bring that one",
+    "start": 916.399,
+    "duration": 4.24
+  },
+  {
+    "text": "agent with all that context to different",
+    "start": 918.72,
+    "duration": 3.84
+  },
+  {
+    "text": "tools is really powerful. And I think",
+    "start": 920.639,
+    "duration": 3.041
+  },
+  {
+    "text": "that's where you're going to see people,",
+    "start": 922.56,
+    "duration": 2.8
+  },
+  {
+    "text": "they're going to kind of get stuck on",
+    "start": 923.68,
+    "duration": 4.32
+  },
+  {
+    "text": "one agent, one kind of agent product,",
+    "start": 925.36,
+    "duration": 5.52
+  },
+  {
+    "text": "whether that be Grockbot or Claude",
+    "start": 928,
+    "duration": 5.76
+  },
+  {
+    "text": "Co-work or uh Chatg GPT work or",
+    "start": 930.88,
+    "duration": 4.399
+  },
+  {
+    "text": "whatever. And then they're just going to",
+    "start": 933.76,
+    "duration": 4
+  },
+  {
+    "text": "kind of access the internet and and",
+    "start": 935.279,
+    "duration": 4
+  },
+  {
+    "text": "interface with the with different things",
+    "start": 937.76,
+    "duration": 3.36
+  },
+  {
+    "text": "on the internet through those agents. So",
+    "start": 939.279,
+    "duration": 4
+  },
+  {
+    "text": "that's where I think WebMCP is really",
+    "start": 941.12,
+    "duration": 4.399
+  },
+  {
+    "text": "powerful. It's also just like a great",
+    "start": 943.279,
+    "duration": 4.161
+  },
+  {
+    "text": "companion for when you're shopping with",
+    "start": 945.519,
+    "duration": 4.641
+  },
+  {
+    "text": "for uh complicated things. You can use",
+    "start": 947.44,
+    "duration": 4.639
+  },
+  {
+    "text": "an agent if you need to kind of help you",
+    "start": 950.16,
+    "duration": 3.84
+  },
+  {
+    "text": "out figure out which specs what things",
+    "start": 952.079,
+    "duration": 4.401
+  },
+  {
+    "text": "right and um you don't have to build in",
+    "start": 954,
+    "duration": 5.36
+  },
+  {
+    "text": "this big bloated you know inapp agent",
+    "start": 956.48,
+    "duration": 5.279
+  },
+  {
+    "text": "into your into your app to get some",
+    "start": 959.36,
+    "duration": 5.68
+  },
+  {
+    "text": "better uh customer um experience for",
+    "start": 961.759,
+    "duration": 4.08
+  },
+  {
+    "text": "you.",
+    "start": 965.04,
+    "duration": 3.28
+  },
+  {
+    "text": ">> Can you show an example another example?",
+    "start": 965.839,
+    "duration": 6.161
+  },
+  {
+    "text": ">> Yeah, sure. So, um, I could say like,",
+    "start": 968.32,
+    "duration": 6.8
+  },
+  {
+    "text": "\"Yeah, so you suggested the Lit Bianca.",
+    "start": 972,
+    "duration": 5.12
+  },
+  {
+    "text": "What are some really nice accessories I",
+    "start": 975.12,
+    "duration": 3.92
+  },
+  {
+    "text": "should add that will fit the Lit",
+    "start": 977.12,
+    "duration": 3.839
+  },
+  {
+    "text": "Bianca?\"",
+    "start": 979.04,
+    "duration": 3.76
+  },
+  {
+    "text": "So, this is something that like bugged",
+    "start": 980.959,
+    "duration": 4.8
+  },
+  {
+    "text": "me a ton was I found the machine, now I",
+    "start": 982.8,
+    "duration": 4.8
+  },
+  {
+    "text": "need a grinder, now I need the right",
+    "start": 985.759,
+    "duration": 3.921
+  },
+  {
+    "text": "pora filter. I want a new basket.",
+    "start": 987.6,
+    "duration": 3.84
+  },
+  {
+    "text": "They're all different sizes. is they all",
+    "start": 989.68,
+    "duration": 3.68
+  },
+  {
+    "text": "use one might use a measurement, one",
+    "start": 991.44,
+    "duration": 4.56
+  },
+  {
+    "text": "might use a name or or some kind of like",
+    "start": 993.36,
+    "duration": 5.52
+  },
+  {
+    "text": "brand name and parsing through all that",
+    "start": 996,
+    "duration": 4.56
+  },
+  {
+    "text": "information as a customer can get really",
+    "start": 998.88,
+    "duration": 3.68
+  },
+  {
+    "text": "tedious. So just to have an agent that",
+    "start": 1000.56,
+    "duration": 4.24
+  },
+  {
+    "text": "can do that and then let you know is",
+    "start": 1002.56,
+    "duration": 4.48
+  },
+  {
+    "text": "perfect because it has all the context",
+    "start": 1004.8,
+    "duration": 4.8
+  },
+  {
+    "text": "here from the store. It knows what I've",
+    "start": 1007.04,
+    "duration": 4.159
+  },
+  {
+    "text": "ordered. It has different tools here.",
+    "start": 1009.6,
+    "duration": 3.679
+  },
+  {
+    "text": "Like if I scroll over here, it can see",
+    "start": 1011.199,
+    "duration": 5.281
+  },
+  {
+    "text": "um get my gear is one tool. So it knows",
+    "start": 1013.279,
+    "duration": 6
+  },
+  {
+    "text": "what I've ordered from here. Um it can",
+    "start": 1016.48,
+    "duration": 5.68
+  },
+  {
+    "text": "get the cart. It can add coupons, right?",
+    "start": 1019.279,
+    "duration": 4.48
+  },
+  {
+    "text": "So, it can apply a coupon on checkout",
+    "start": 1022.16,
+    "duration": 3.36
+  },
+  {
+    "text": "and all this stuff. So, here it's just",
+    "start": 1023.759,
+    "duration": 3.601
+  },
+  {
+    "text": "saying the first thing you should buy is",
+    "start": 1025.52,
+    "duration": 4
+  },
+  {
+    "text": "this lit water softener two pack. So,",
+    "start": 1027.36,
+    "duration": 5.04
+  },
+  {
+    "text": "I'll just say cool, add that to my cart.",
+    "start": 1029.52,
+    "duration": 5.6
+  },
+  {
+    "text": "That sounds great. Right. So, the nice",
+    "start": 1032.4,
+    "duration": 4.48
+  },
+  {
+    "text": "thing is is that I could tell it",
+    "start": 1035.12,
+    "duration": 4.16
+  },
+  {
+    "text": "highlight that on the UI or I can just",
+    "start": 1036.88,
+    "duration": 3.84
+  },
+  {
+    "text": "say, you know, whatever. I I like the",
+    "start": 1039.28,
+    "duration": 3.36
+  },
+  {
+    "text": "sound of that. Go and and add it to the",
+    "start": 1040.72,
+    "duration": 4.64
+  },
+  {
+    "text": "cart and it'll do all that stuff in real",
+    "start": 1042.64,
+    "duration": 5.039
+  },
+  {
+    "text": "time. And I have visual confirmation of",
+    "start": 1045.36,
+    "duration": 4.96
+  },
+  {
+    "text": "that. I can see the things, right? And",
+    "start": 1047.679,
+    "duration": 4.801
+  },
+  {
+    "text": "um I think that's pretty cool.",
+    "start": 1050.32,
+    "duration": 3.359
+  },
+  {
+    "text": ">> That's really cool.",
+    "start": 1052.48,
+    "duration": 3.04
+  },
+  {
+    "text": ">> I mean, come on. That's really cool.",
+    "start": 1053.679,
+    "duration": 5.601
+  },
+  {
+    "text": ">> Yeah. So um it even tell me here you",
+    "start": 1055.52,
+    "duration": 6.32
+  },
+  {
+    "text": "have softener is in uh you have a",
+    "start": 1059.28,
+    "duration": 5.279
+  },
+  {
+    "text": "barista 10 coupon 10% adding it for the",
+    "start": 1061.84,
+    "duration": 5.68
+  },
+  {
+    "text": "rest. So",
+    "start": 1064.559,
+    "duration": 4.24
+  },
+  {
+    "text": ">> I don't know if it's just cuz I'm a",
+    "start": 1067.52,
+    "duration": 3.2
+  },
+  {
+    "text": "coffee afficionado. You know, I love",
+    "start": 1068.799,
+    "duration": 4.321
+  },
+  {
+    "text": "coffee. You know, you can see my coffee",
+    "start": 1070.72,
+    "duration": 3.6
+  },
+  {
+    "text": "setup back there.",
+    "start": 1073.12,
+    "duration": 1.6
+  },
+  {
+    "text": ">> Yeah.",
+    "start": 1074.32,
+    "duration": 3.359
+  },
+  {
+    "text": ">> Um that this is just hitting for me so",
+    "start": 1074.72,
+    "duration": 5.6
+  },
+  {
+    "text": "hard. But like to me it's like it makes",
+    "start": 1077.679,
+    "duration": 5.36
+  },
+  {
+    "text": "so much sense. Like we're a as",
+    "start": 1080.32,
+    "duration": 3.92
+  },
+  {
+    "text": "customers, we're going to be using",
+    "start": 1083.039,
+    "duration": 2.961
+  },
+  {
+    "text": "agents. We're going to want them to go",
+    "start": 1084.24,
+    "duration": 3.52
+  },
+  {
+    "text": "and do stuff for us. We want to make",
+    "start": 1086,
+    "duration": 3.76
+  },
+  {
+    "text": "sure that the things that they do it",
+    "start": 1087.76,
+    "duration": 4.72
+  },
+  {
+    "text": "actually is able to complete the tasks.",
+    "start": 1089.76,
+    "duration": 4.56
+  },
+  {
+    "text": "Um and to see this work just so",
+    "start": 1092.48,
+    "duration": 3.76
+  },
+  {
+    "text": "seamlessly just is awesome.",
+    "start": 1094.32,
+    "duration": 4.64
+  },
+  {
+    "text": ">> Yep. Yeah. It's really cool. I think so",
+    "start": 1096.24,
+    "duration": 4.319
+  },
+  {
+    "text": "this is a great example, but you can",
+    "start": 1098.96,
+    "duration": 2.8
+  },
+  {
+    "text": "think about anything where it kind of",
+    "start": 1100.559,
+    "duration": 3.921
+  },
+  {
+    "text": "gets complicated. Uh you know, technical",
+    "start": 1101.76,
+    "duration": 5.44
+  },
+  {
+    "text": "stuff. Um, if you're buying hard like",
+    "start": 1104.48,
+    "duration": 5.6
+  },
+  {
+    "text": "hardware and I don't know, you need to",
+    "start": 1107.2,
+    "duration": 4.4
+  },
+  {
+    "text": "uh you're doing like hardware hacking",
+    "start": 1110.08,
+    "duration": 3.36
+  },
+  {
+    "text": "and you need to write the right battery",
+    "start": 1111.6,
+    "duration": 4.88
+  },
+  {
+    "text": "for for the uh development board or car",
+    "start": 1113.44,
+    "duration": 5.04
+  },
+  {
+    "text": "stuff and you need the right parts like",
+    "start": 1116.48,
+    "duration": 3.199
+  },
+  {
+    "text": "all this stuff that can be really",
+    "start": 1118.48,
+    "duration": 2.8
+  },
+  {
+    "text": "complicated like that. This is a great",
+    "start": 1119.679,
+    "duration": 4.321
+  },
+  {
+    "text": "use case. I mean, I'm just curious, you",
+    "start": 1121.28,
+    "duration": 5.92
+  },
+  {
+    "text": "know, where MCP in your mind where MCP",
+    "start": 1124,
+    "duration": 4.799
+  },
+  {
+    "text": "fits, which I think is like another way",
+    "start": 1127.2,
+    "duration": 5.68
+  },
+  {
+    "text": "of saying, you know, how do you like in",
+    "start": 1128.799,
+    "duration": 6.961
+  },
+  {
+    "text": "which sectors niches should you be",
+    "start": 1132.88,
+    "duration": 4.56
+  },
+  {
+    "text": "implementing WebMP? Because there's",
+    "start": 1135.76,
+    "duration": 5.68
+  },
+  {
+    "text": "going to be like some",
+    "start": 1137.44,
+    "duration": 6.96
+  },
+  {
+    "text": "some industries are going to be last to",
+    "start": 1141.44,
+    "duration": 4.56
+  },
+  {
+    "text": "implement this, right? And I think from",
+    "start": 1144.4,
+    "duration": 4.159
+  },
+  {
+    "text": "a founder perspective, I care about the",
+    "start": 1146,
+    "duration": 4.559
+  },
+  {
+    "text": "the ones that have the highest priority.",
+    "start": 1148.559,
+    "duration": 3.681
+  },
+  {
+    "text": "So which are those and why do they",
+    "start": 1150.559,
+    "duration": 2.48
+  },
+  {
+    "text": "matter?",
+    "start": 1152.24,
+    "duration": 3.6
+  },
+  {
+    "text": ">> Yeah. Yeah. I think like like I said",
+    "start": 1153.039,
+    "duration": 5.201
+  },
+  {
+    "text": "these compatibilitydriven commerce,",
+    "start": 1155.84,
+    "duration": 4.88
+  },
+  {
+    "text": "right? So it's like all those things,",
+    "start": 1158.24,
+    "duration": 4.559
+  },
+  {
+    "text": "camera systems, any kind of web web",
+    "start": 1160.72,
+    "duration": 4.48
+  },
+  {
+    "text": "store that's complicated, that'll be a",
+    "start": 1162.799,
+    "duration": 4.961
+  },
+  {
+    "text": "great thing. Um you could do it in SAS",
+    "start": 1165.2,
+    "duration": 5.359
+  },
+  {
+    "text": "admin. So like any kind of admin board",
+    "start": 1167.76,
+    "duration": 5.12
+  },
+  {
+    "text": "or console or analytics or marketing",
+    "start": 1170.559,
+    "duration": 4.321
+  },
+  {
+    "text": "tools, you can add these things in to",
+    "start": 1172.88,
+    "duration": 4.08
+  },
+  {
+    "text": "make it easier for you know your",
+    "start": 1174.88,
+    "duration": 4.159
+  },
+  {
+    "text": "marketing team to to deal with these",
+    "start": 1176.96,
+    "duration": 4.079
+  },
+  {
+    "text": "things and and set up features and stuff",
+    "start": 1179.039,
+    "duration": 4.081
+  },
+  {
+    "text": "like that. And even like regulated",
+    "start": 1181.039,
+    "duration": 4.321
+  },
+  {
+    "text": "industries like the nice thing is is",
+    "start": 1183.12,
+    "duration": 4.64
+  },
+  {
+    "text": "that you can't use API keys. So you",
+    "start": 1185.36,
+    "duration": 4.08
+  },
+  {
+    "text": "don't want to go to you don't really",
+    "start": 1187.76,
+    "duration": 4.32
+  },
+  {
+    "text": "want to use MCP servers or APIs. You",
+    "start": 1189.44,
+    "duration": 4.88
+  },
+  {
+    "text": "maybe want to set up a few and that's a",
+    "start": 1192.08,
+    "duration": 4.959
+  },
+  {
+    "text": "great thing about web MCP. like a few",
+    "start": 1194.32,
+    "duration": 6
+  },
+  {
+    "text": "tools that are using the browser state",
+    "start": 1197.039,
+    "duration": 5.52
+  },
+  {
+    "text": "that don't can can be read only. So they",
+    "start": 1200.32,
+    "duration": 3.76
+  },
+  {
+    "text": "don't actually touch anything. So, let's",
+    "start": 1202.559,
+    "duration": 3.761
+  },
+  {
+    "text": "imagine like insurance or banking",
+    "start": 1204.08,
+    "duration": 4.8
+  },
+  {
+    "text": "self-service. Like you could set up some",
+    "start": 1206.32,
+    "duration": 6.08
+  },
+  {
+    "text": "WebMCP tools that are read only or only",
+    "start": 1208.88,
+    "duration": 6.159
+  },
+  {
+    "text": "uh touch very nonsensitive",
+    "start": 1212.4,
+    "duration": 4.639
+  },
+  {
+    "text": "settings and then that will help the",
+    "start": 1215.039,
+    "duration": 4.161
+  },
+  {
+    "text": "user figure out where they need to go to",
+    "start": 1217.039,
+    "duration": 4.64
+  },
+  {
+    "text": "enter something or where they need to to",
+    "start": 1219.2,
+    "duration": 5.12
+  },
+  {
+    "text": "go to to get the right information or it",
+    "start": 1221.679,
+    "duration": 5.36
+  },
+  {
+    "text": "can even uh summarize and and pull the",
+    "start": 1224.32,
+    "duration": 4.16
+  },
+  {
+    "text": "right information for them via their",
+    "start": 1227.039,
+    "duration": 4.561
+  },
+  {
+    "text": "agent. So, stuff like that. I even think",
+    "start": 1228.48,
+    "duration": 5.52
+  },
+  {
+    "text": "um internal tools. So building internal",
+    "start": 1231.6,
+    "duration": 6
+  },
+  {
+    "text": "tools at a company. So if you're um like",
+    "start": 1234,
+    "duration": 6.64
+  },
+  {
+    "text": "a an entrepreneur, you don't necessarily",
+    "start": 1237.6,
+    "duration": 5.12
+  },
+  {
+    "text": "need to use MCP right away for your",
+    "start": 1240.64,
+    "duration": 3.68
+  },
+  {
+    "text": "customers. There might be a really great",
+    "start": 1242.72,
+    "duration": 3.92
+  },
+  {
+    "text": "solution for you inhouse like your",
+    "start": 1244.32,
+    "duration": 4.479
+  },
+  {
+    "text": "internal tools, stuff for your for",
+    "start": 1246.64,
+    "duration": 4.64
+  },
+  {
+    "text": "yourself, um for your employees. That's",
+    "start": 1248.799,
+    "duration": 3.521
+  },
+  {
+    "text": "where I think there's a lot of",
+    "start": 1251.28,
+    "duration": 3.12
+  },
+  {
+    "text": "potential.",
+    "start": 1252.32,
+    "duration": 4.32
+  },
+  {
+    "text": ">> I love it. All right, let's let's go to",
+    "start": 1254.4,
+    "duration": 3.68
+  },
+  {
+    "text": "some business ideas that people can",
+    "start": 1256.64,
+    "duration": 3.039
+  },
+  {
+    "text": "implement. And I'm curious your take on",
+    "start": 1258.08,
+    "duration": 3.04
+  },
+  {
+    "text": "it, too. So,",
+    "start": 1259.679,
+    "duration": 2.961
+  },
+  {
+    "text": ">> let me share my screen.",
+    "start": 1261.12,
+    "duration": 2.64
+  },
+  {
+    "text": ">> Yeah.",
+    "start": 1262.64,
+    "duration": 4.8
+  },
+  {
+    "text": ">> All right, Vinnie. So, web WebMCP is",
+    "start": 1263.76,
+    "duration": 5.68
+  },
+  {
+    "text": "here. I wanted to come up with two",
+    "start": 1267.44,
+    "duration": 3.52
+  },
+  {
+    "text": "business ideas that I think are cash",
+    "start": 1269.44,
+    "duration": 3.84
+  },
+  {
+    "text": "flowing that I think are anyone",
+    "start": 1270.96,
+    "duration": 4.64
+  },
+  {
+    "text": "non-technical can set up or or somewhat",
+    "start": 1273.28,
+    "duration": 3.84
+  },
+  {
+    "text": "non-technical. You just don't need to be",
+    "start": 1275.6,
+    "duration": 3.76
+  },
+  {
+    "text": "like a hardcore engineer. The first idea",
+    "start": 1277.12,
+    "duration": 6.48
+  },
+  {
+    "text": "is a WebMCP conversion agency. And I bet",
+    "start": 1279.36,
+    "duration": 5.92
+  },
+  {
+    "text": "you there's probably some domains that",
+    "start": 1283.6,
+    "duration": 4.24
+  },
+  {
+    "text": "are available like WebMCP.",
+    "start": 1285.28,
+    "duration": 4.24
+  },
+  {
+    "text": "or something like that that someone can",
+    "start": 1287.84,
+    "duration": 5.36
+  },
+  {
+    "text": "go and grab right now. So the the big",
+    "start": 1289.52,
+    "duration": 6.32
+  },
+  {
+    "text": "idea is how can you make boring business",
+    "start": 1293.2,
+    "duration": 5.12
+  },
+  {
+    "text": "websites agent ready? So you have these",
+    "start": 1295.84,
+    "duration": 4.319
+  },
+  {
+    "text": "boring businesses like law firms and",
+    "start": 1298.32,
+    "duration": 4.479
+  },
+  {
+    "text": "home service and HVAC, you know, med",
+    "start": 1300.159,
+    "duration": 5.601
+  },
+  {
+    "text": "spas, dentists, and you just go and",
+    "start": 1302.799,
+    "duration": 5.201
+  },
+  {
+    "text": "create these, you know, V1 tools for",
+    "start": 1305.76,
+    "duration": 4.08
+  },
+  {
+    "text": "them. So that can be like requesting a",
+    "start": 1308,
+    "duration": 4.159
+  },
+  {
+    "text": "quote or booking consults and you're",
+    "start": 1309.84,
+    "duration": 6.8
+  },
+  {
+    "text": "just selling them uh on this idea that",
+    "start": 1312.159,
+    "duration": 7.201
+  },
+  {
+    "text": "uh that there's going to be a new class",
+    "start": 1316.64,
+    "duration": 4.56
+  },
+  {
+    "text": "of citizens on the internet. These are",
+    "start": 1319.36,
+    "duration": 4.72
+  },
+  {
+    "text": "going to be these AI visitors and these",
+    "start": 1321.2,
+    "duration": 6.24
+  },
+  {
+    "text": "AI visitors, these agents are going to",
+    "start": 1324.08,
+    "duration": 5.92
+  },
+  {
+    "text": "book jobs, right? So you sell them on",
+    "start": 1327.44,
+    "duration": 5.44
+  },
+  {
+    "text": "maybe a $200 to $10,000 setup and then",
+    "start": 1330,
+    "duration": 5.36
+  },
+  {
+    "text": "you charge, you know, could be $500 a",
+    "start": 1332.88,
+    "duration": 4.72
+  },
+  {
+    "text": "month or a few hundred a month, $700",
+    "start": 1335.36,
+    "duration": 4.48
+  },
+  {
+    "text": "depending on who it is. Is it a big law",
+    "start": 1337.6,
+    "duration": 4.72
+  },
+  {
+    "text": "firm, a small law firm on monitoring and",
+    "start": 1339.84,
+    "duration": 5.44
+  },
+  {
+    "text": "eval? And then you you build this",
+    "start": 1342.32,
+    "duration": 5.28
+  },
+  {
+    "text": "retainer that you know is building cash",
+    "start": 1345.28,
+    "duration": 5.6
+  },
+  {
+    "text": "flow every single month. Um and you just",
+    "start": 1347.6,
+    "duration": 4.8
+  },
+  {
+    "text": "update it and that sort of thing. What",
+    "start": 1350.88,
+    "duration": 2.96
+  },
+  {
+    "text": "do you think of this idea?",
+    "start": 1352.4,
+    "duration": 2.96
+  },
+  {
+    "text": ">> Yeah, I actually think it's a really",
+    "start": 1353.84,
+    "duration": 4.8
+  },
+  {
+    "text": "good idea. Um, I see stuff on the web",
+    "start": 1355.36,
+    "duration": 4.64
+  },
+  {
+    "text": "floating around where they're showing",
+    "start": 1358.64,
+    "duration": 4.08
+  },
+  {
+    "text": "that uh things like you said of dentists",
+    "start": 1360,
+    "duration": 5.28
+  },
+  {
+    "text": "or law firms are starting to use agents",
+    "start": 1362.72,
+    "duration": 5.52
+  },
+  {
+    "text": "at their offices. And so I think they'll",
+    "start": 1365.28,
+    "duration": 5.759
+  },
+  {
+    "text": "get it. And it's good uh that you bring",
+    "start": 1368.24,
+    "duration": 4
+  },
+  {
+    "text": "this up because I think it's worth",
+    "start": 1371.039,
+    "duration": 3.76
+  },
+  {
+    "text": "mentioning that WebMP is an experimental",
+    "start": 1372.24,
+    "duration": 4.319
+  },
+  {
+    "text": "feature in Chrome right now. So it",
+    "start": 1374.799,
+    "duration": 5.12
+  },
+  {
+    "text": "launched in February, joint effort from",
+    "start": 1376.559,
+    "duration": 5.841
+  },
+  {
+    "text": "Microsoft and Google, but it's still in",
+    "start": 1379.919,
+    "duration": 4.081
+  },
+  {
+    "text": "early days. But that's why I think",
+    "start": 1382.4,
+    "duration": 3.92
+  },
+  {
+    "text": "there's real potential here because we",
+    "start": 1384,
+    "duration": 3.919
+  },
+  {
+    "text": "talked about this package. I showed the",
+    "start": 1386.32,
+    "duration": 4.479
+  },
+  {
+    "text": "diagram of you know from headless to um",
+    "start": 1387.919,
+    "duration": 5.601
+  },
+  {
+    "text": "bound to UI the different types of agent",
+    "start": 1390.799,
+    "duration": 6.401
+  },
+  {
+    "text": "native uh approaches you can use to um",
+    "start": 1393.52,
+    "duration": 6.88
+  },
+  {
+    "text": "connect to apps right so you could do",
+    "start": 1397.2,
+    "duration": 6.4
+  },
+  {
+    "text": "this as a package where um it's not only",
+    "start": 1400.4,
+    "duration": 7.04
+  },
+  {
+    "text": "web MCP but other tools maybe a MCP",
+    "start": 1403.6,
+    "duration": 5.6
+  },
+  {
+    "text": "server for them and you tell them that",
+    "start": 1407.44,
+    "duration": 4.719
+  },
+  {
+    "text": "like look this is new emerging stuff or",
+    "start": 1409.2,
+    "duration": 4.64
+  },
+  {
+    "text": "you're learning this because it is this",
+    "start": 1412.159,
+    "duration": 3.601
+  },
+  {
+    "text": "new emerging stuff so that when it does",
+    "start": 1413.84,
+    "duration": 4.4
+  },
+  {
+    "text": "get adopted you're the first mover. You",
+    "start": 1415.76,
+    "duration": 4.48
+  },
+  {
+    "text": "have the first mover advantage. And so",
+    "start": 1418.24,
+    "duration": 4.08
+  },
+  {
+    "text": "you can sell it as a package like we'll",
+    "start": 1420.24,
+    "duration": 5.439
+  },
+  {
+    "text": "we'll put in MCP, we'll put in web MCP,",
+    "start": 1422.32,
+    "duration": 6.4
+  },
+  {
+    "text": "um we'll we'll create um you know,",
+    "start": 1425.679,
+    "duration": 5.521
+  },
+  {
+    "text": "whatever all this stuff that that aligns",
+    "start": 1428.72,
+    "duration": 4.64
+  },
+  {
+    "text": "with their vision. You can make whatever",
+    "start": 1431.2,
+    "duration": 3.599
+  },
+  {
+    "text": "they want available and you can show",
+    "start": 1433.36,
+    "duration": 3.199
+  },
+  {
+    "text": "them the different approaches. You have",
+    "start": 1434.799,
+    "duration": 4.401
+  },
+  {
+    "text": "the one that uses a UI, one that is",
+    "start": 1436.559,
+    "duration": 6.081
+  },
+  {
+    "text": "headless and you're the expert there and",
+    "start": 1439.2,
+    "duration": 5.839
+  },
+  {
+    "text": "that's the way that you uh make money.",
+    "start": 1442.64,
+    "duration": 4.24
+  },
+  {
+    "text": "Yeah, maybe it's just agent conversion",
+    "start": 1445.039,
+    "duration": 5.201
+  },
+  {
+    "text": "agency and then WebMCP is just one of",
+    "start": 1446.88,
+    "duration": 5.679
+  },
+  {
+    "text": "the the technologies that you use.",
+    "start": 1450.24,
+    "duration": 4
+  },
+  {
+    "text": ">> Yep. Or like we were saying before",
+    "start": 1452.559,
+    "duration": 3.761
+  },
+  {
+    "text": "internal tools. It doesn't only have to",
+    "start": 1454.24,
+    "duration": 4.88
+  },
+  {
+    "text": "be about uh you customerf facing stuff.",
+    "start": 1456.32,
+    "duration": 4.16
+  },
+  {
+    "text": "You can show them how they can make",
+    "start": 1459.12,
+    "duration": 3.84
+  },
+  {
+    "text": "processes in their office better for",
+    "start": 1460.48,
+    "duration": 3.92
+  },
+  {
+    "text": "them and their employees using stuff",
+    "start": 1462.96,
+    "duration": 2.959
+  },
+  {
+    "text": "like WebMP.",
+    "start": 1464.4,
+    "duration": 5.519
+  },
+  {
+    "text": ">> Totally cool. Uh startup idea number",
+    "start": 1465.919,
+    "duration": 7.36
+  },
+  {
+    "text": "two, I'm calling it the agent mystery",
+    "start": 1469.919,
+    "duration": 6.561
+  },
+  {
+    "text": "shopper. So, it's testing whether agents",
+    "start": 1473.279,
+    "duration": 5.441
+  },
+  {
+    "text": "can complete the most important user",
+    "start": 1476.48,
+    "duration": 4.319
+  },
+  {
+    "text": "journeys. So, if you think about a user",
+    "start": 1478.72,
+    "duration": 4.16
+  },
+  {
+    "text": "journey, maybe it's a Shopify store.",
+    "start": 1480.799,
+    "duration": 3.281
+  },
+  {
+    "text": "You're, you know, you want to buy a",
+    "start": 1482.88,
+    "duration": 3.76
+  },
+  {
+    "text": "hoodie. If it's a, you know, consulting",
+    "start": 1484.08,
+    "duration": 4.64
+  },
+  {
+    "text": "company, it's booking a a consult. If",
+    "start": 1486.64,
+    "duration": 3.6
+  },
+  {
+    "text": "it's an insurance company, you're filing",
+    "start": 1488.72,
+    "duration": 3.12
+  },
+  {
+    "text": "a claim, requesting quotes. You're",
+    "start": 1490.24,
+    "duration": 3.12
+  },
+  {
+    "text": "ordering items. All these different",
+    "start": 1491.84,
+    "duration": 5.199
+  },
+  {
+    "text": "things that you want the agent to do.",
+    "start": 1493.36,
+    "duration": 5.679
+  },
+  {
+    "text": "So, the agent is going to run a bunch of",
+    "start": 1497.039,
+    "duration": 4.801
+  },
+  {
+    "text": "tests and you, the customer, get a",
+    "start": 1499.039,
+    "duration": 4.961
+  },
+  {
+    "text": "report back. Where did the agent get",
+    "start": 1501.84,
+    "duration": 4
+  },
+  {
+    "text": "stuck? Were there bad descriptions? Were",
+    "start": 1504,
+    "duration": 4.159
+  },
+  {
+    "text": "there missing tools? Conversion risk?",
+    "start": 1505.84,
+    "duration": 4.719
+  },
+  {
+    "text": "And then you're basically selling, you",
+    "start": 1508.159,
+    "duration": 5.041
+  },
+  {
+    "text": "know, uh, agent reports, maybe it's",
+    "start": 1510.559,
+    "duration": 4.961
+  },
+  {
+    "text": "monthly, weekly, and you turn the",
+    "start": 1513.2,
+    "duration": 4.56
+  },
+  {
+    "text": "repeated fixes into software. So, I like",
+    "start": 1515.52,
+    "duration": 4.08
+  },
+  {
+    "text": "this business because it's pretty",
+    "start": 1517.76,
+    "duration": 5.76
+  },
+  {
+    "text": "simple. Um it's almost like um you know",
+    "start": 1519.6,
+    "duration": 7.199
+  },
+  {
+    "text": "just a a report like a credit report",
+    "start": 1523.52,
+    "duration": 6.72
+  },
+  {
+    "text": "almost on you know how your how your",
+    "start": 1526.799,
+    "duration": 6.88
+  },
+  {
+    "text": "your website and your apps are uh around",
+    "start": 1530.24,
+    "duration": 6.24
+  },
+  {
+    "text": "implementing things like WebMP. Um and",
+    "start": 1533.679,
+    "duration": 4.88
+  },
+  {
+    "text": "then you can charge a few hundred a",
+    "start": 1536.48,
+    "duration": 3.679
+  },
+  {
+    "text": "month or $100 a month for something like",
+    "start": 1538.559,
+    "duration": 3.281
+  },
+  {
+    "text": "this. What do you think about this idea?",
+    "start": 1540.159,
+    "duration": 4.081
+  },
+  {
+    "text": "Yeah, I think also a cool thing it makes",
+    "start": 1541.84,
+    "duration": 3.92
+  },
+  {
+    "text": "a lot of sense and the cool thing is is",
+    "start": 1544.24,
+    "duration": 3.28
+  },
+  {
+    "text": "that you can even pair approaches like",
+    "start": 1545.76,
+    "duration": 4.72
+  },
+  {
+    "text": "this to your uh agent uh conversion",
+    "start": 1547.52,
+    "duration": 5.039
+  },
+  {
+    "text": "agency, right? So it's like",
+    "start": 1550.48,
+    "duration": 4.799
+  },
+  {
+    "text": ">> you can go and run these agent tests and",
+    "start": 1552.559,
+    "duration": 5.72
+  },
+  {
+    "text": "evalc",
+    "start": 1555.279,
+    "duration": 3
+  },
+  {
+    "text": "why not check out this as well. So you",
+    "start": 1562.799,
+    "duration": 3.921
+  },
+  {
+    "text": "can kind of combine the approaches I",
+    "start": 1564.72,
+    "duration": 3.28
+  },
+  {
+    "text": "think here. So that's a really cool",
+    "start": 1566.72,
+    "duration": 2.319
+  },
+  {
+    "text": "idea.",
+    "start": 1568,
+    "duration": 3.52
+  },
+  {
+    "text": ">> I like it.",
+    "start": 1569.039,
+    "duration": 4.081
+  },
+  {
+    "text": "Yeah. So, I just also wanted to mention",
+    "start": 1571.52,
+    "duration": 4.24
+  },
+  {
+    "text": "that um I showed a couple examples here,",
+    "start": 1573.12,
+    "duration": 4.88
+  },
+  {
+    "text": "but there are 16 different tools that",
+    "start": 1575.76,
+    "duration": 5.44
+  },
+  {
+    "text": "you can uh use um with your agent via",
+    "start": 1578,
+    "duration": 6.32
+  },
+  {
+    "text": "WebMCP on this example, espresso",
+    "start": 1581.2,
+    "duration": 5.28
+  },
+  {
+    "text": "machines and gear store. And you can do",
+    "start": 1584.32,
+    "duration": 4
+  },
+  {
+    "text": "that right now. You can go to crema",
+    "start": 1586.48,
+    "duration": 4.72
+  },
+  {
+    "text": "andco uh clientfly.dev. We'll put the",
+    "start": 1588.32,
+    "duration": 5.28
+  },
+  {
+    "text": "URL in the show notes and stuff. Um and",
+    "start": 1591.2,
+    "duration": 4
+  },
+  {
+    "text": "you can test it out there. One thing you",
+    "start": 1593.6,
+    "duration": 2.959
+  },
+  {
+    "text": "should know is that like we said, it's",
+    "start": 1595.2,
+    "duration": 3.839
+  },
+  {
+    "text": "experimental stuff, early days. So go",
+    "start": 1596.559,
+    "duration": 5.921
+  },
+  {
+    "text": "into Chrome flags, enable WebMCP support",
+    "start": 1599.039,
+    "duration": 6.321
+  },
+  {
+    "text": "and go into Chrome inspect and allow",
+    "start": 1602.48,
+    "duration": 5.04
+  },
+  {
+    "text": "remote debugging. So these are the",
+    "start": 1605.36,
+    "duration": 4.559
+  },
+  {
+    "text": "things that you'll want to uh enable so",
+    "start": 1607.52,
+    "duration": 3.519
+  },
+  {
+    "text": "that you can start using these",
+    "start": 1609.919,
+    "duration": 3.201
+  },
+  {
+    "text": "experimental features. And if you want",
+    "start": 1611.039,
+    "duration": 5.52
+  },
+  {
+    "text": "to build your own app like this, you can",
+    "start": 1613.12,
+    "duration": 6.559
+  },
+  {
+    "text": "also click on the um GitHub repo button",
+    "start": 1616.559,
+    "duration": 5.841
+  },
+  {
+    "text": "down there next to the WebMCP tools pill",
+    "start": 1619.679,
+    "duration": 4.961
+  },
+  {
+    "text": "and you can clone this repo and you can",
+    "start": 1622.4,
+    "duration": 3.519
+  },
+  {
+    "text": "play around with it, make your own",
+    "start": 1624.64,
+    "duration": 3.44
+  },
+  {
+    "text": "version, whatever. it's free for you to",
+    "start": 1625.919,
+    "duration": 3.681
+  },
+  {
+    "text": "start playing around with cool business",
+    "start": 1628.08,
+    "duration": 3.92
+  },
+  {
+    "text": "ideas. So, those are two important uh",
+    "start": 1629.6,
+    "duration": 5.12
+  },
+  {
+    "text": "things I think are uh worth mentioning.",
+    "start": 1632,
+    "duration": 4.88
+  },
+  {
+    "text": "And yeah, I would be it would be cool to",
+    "start": 1634.72,
+    "duration": 4.72
+  },
+  {
+    "text": "see what other people do with this repo,",
+    "start": 1636.88,
+    "duration": 4.64
+  },
+  {
+    "text": "what other people do with these ideas.",
+    "start": 1639.44,
+    "duration": 3.68
+  },
+  {
+    "text": "Um so, people should definitely share",
+    "start": 1641.52,
+    "duration": 3.36
+  },
+  {
+    "text": "those online with us. I think that would",
+    "start": 1643.12,
+    "duration": 2.96
+  },
+  {
+    "text": "be awesome to see.",
+    "start": 1644.88,
+    "duration": 2.72
+  },
+  {
+    "text": ">> Yeah, we'd love to see it. And I think,",
+    "start": 1646.08,
+    "duration": 5.599
+  },
+  {
+    "text": "you know, I there's I can just see the",
+    "start": 1647.6,
+    "duration": 6.64
+  },
+  {
+    "text": "comment uh of someone saying, \"Well,",
+    "start": 1651.679,
+    "duration": 4.321
+  },
+  {
+    "text": "it's an experimental. Well, it's, you",
+    "start": 1654.24,
+    "duration": 3.36
+  },
+  {
+    "text": "know, it's so experimental. Like, it's",
+    "start": 1656,
+    "duration": 3.84
+  },
+  {
+    "text": "so, it's way too early. Like, why even",
+    "start": 1657.6,
+    "duration": 4.959
+  },
+  {
+    "text": "bother playing with this stuff? And I,",
+    "start": 1659.84,
+    "duration": 5.04
+  },
+  {
+    "text": "you know, you know, me, I love playing",
+    "start": 1662.559,
+    "duration": 4.401
+  },
+  {
+    "text": "when things are experimental cuz when,",
+    "start": 1664.88,
+    "duration": 4.56
+  },
+  {
+    "text": "you know, the arbitrage exists when,",
+    "start": 1666.96,
+    "duration": 5.199
+  },
+  {
+    "text": "when it's experimental. Like, I love",
+    "start": 1669.44,
+    "duration": 4.56
+  },
+  {
+    "text": "trying things, getting my hands dirty,",
+    "start": 1672.159,
+    "duration": 5.041
+  },
+  {
+    "text": "and and and seeing what I can build now",
+    "start": 1674,
+    "duration": 5.52
+  },
+  {
+    "text": "because when it's going to be, you know,",
+    "start": 1677.2,
+    "duration": 4.4
+  },
+  {
+    "text": "super popular, that's when that window",
+    "start": 1679.52,
+    "duration": 3.36
+  },
+  {
+    "text": "starts closing.",
+    "start": 1681.6,
+    "duration": 3.92
+  },
+  {
+    "text": ">> Yep. Definitely. Think about when chat",
+    "start": 1682.88,
+    "duration": 5.039
+  },
+  {
+    "text": "GPT came out or when GBT I think it was",
+    "start": 1685.52,
+    "duration": 4.879
+  },
+  {
+    "text": "GPT 2 and three came around and people",
+    "start": 1687.919,
+    "duration": 3.921
+  },
+  {
+    "text": "were playing with it and going and it",
+    "start": 1690.399,
+    "duration": 3.76
+  },
+  {
+    "text": "was just two years before chat GPT",
+    "start": 1691.84,
+    "duration": 4.24
+  },
+  {
+    "text": "launched and people were going ah this",
+    "start": 1694.159,
+    "duration": 4.561
+  },
+  {
+    "text": "is crap this is we're way off we're",
+    "start": 1696.08,
+    "duration": 5.76
+  },
+  {
+    "text": "years away from AI being like a serious",
+    "start": 1698.72,
+    "duration": 5.679
+  },
+  {
+    "text": "thing a serious tool and then boom the",
+    "start": 1701.84,
+    "duration": 4.48
+  },
+  {
+    "text": "explosion happened just a year or two",
+    "start": 1704.399,
+    "duration": 4.241
+  },
+  {
+    "text": "later. So like shouldn't pass this stuff",
+    "start": 1706.32,
+    "duration": 5.68
+  },
+  {
+    "text": "off as you know just like experimental",
+    "start": 1708.64,
+    "duration": 4.639
+  },
+  {
+    "text": "stuff that's not going to get",
+    "start": 1712,
+    "duration": 2.88
+  },
+  {
+    "text": "implemented. I mean we're talking about",
+    "start": 1713.279,
+    "duration": 3.921
+  },
+  {
+    "text": "Google here. Um they have pretty good",
+    "start": 1714.88,
+    "duration": 4.399
+  },
+  {
+    "text": "foresight. Uh this is something that",
+    "start": 1717.2,
+    "duration": 3.68
+  },
+  {
+    "text": "they've been talking about for a few",
+    "start": 1719.279,
+    "duration": 3.76
+  },
+  {
+    "text": "years now. They made the proposal two",
+    "start": 1720.88,
+    "duration": 3.679
+  },
+  {
+    "text": "years ago. They launched it the",
+    "start": 1723.039,
+    "duration": 4.401
+  },
+  {
+    "text": "beginning of this year. So I wouldn't I",
+    "start": 1724.559,
+    "duration": 4.801
+  },
+  {
+    "text": "wouldn't fade this personally and I'm",
+    "start": 1727.44,
+    "duration": 3.599
+  },
+  {
+    "text": "excited about it. So that that's enough",
+    "start": 1729.36,
+    "duration": 2.799
+  },
+  {
+    "text": "for me.",
+    "start": 1731.039,
+    "duration": 3.201
+  },
+  {
+    "text": ">> All right. Thanks for coming on, Vince.",
+    "start": 1732.159,
+    "duration": 3.76
+  },
+  {
+    "text": "sharing sharing the sauce and I'll see",
+    "start": 1734.24,
+    "duration": 4.4
+  },
+  {
+    "text": "you next time.",
+    "start": 1735.919,
+    "duration": 2.721
+  }
+]

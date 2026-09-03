@@ -1,0 +1,353 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Apple-native dark theme, following macOS HIG (Tahoe / Liquid Glass era).
+   System font stack (no webfont download). SF Pro on macOS/iOS, Segoe UI
+   on Windows for graceful fallback. Translucent surfaces use backdrop-blur
+   to approximate Liquid Glass. Subtle 0.5px-equivalent borders sit on top
+   of fills for the characteristic Apple "etched" surface treatment.
+
+   The carousel slide preview in CarouselPanel keeps its medical-chart
+   aesthetic intentionally — those mock the public Arutlee posts which
+   follow 15-visual-ip-brief.md. The studio chrome is what got Apple-ified.
+   --------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #1e1e1e;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px; /* macOS body default */
+  line-height: 1.45;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11", "ss03";
+}
+
+body {
+  /* Subtle ambient backdrop. No grain — Apple surfaces are clean. */
+  background: linear-gradient(180deg, #1f1f1f 0%, #1c1c1e 100%);
+  min-height: 100vh;
+}
+
+/* Selection matches systemBlue */
+::selection {
+  background: rgba(10, 132, 255, 0.30);
+  color: #fff;
+}
+
+/* Scrollbars: minimal, on-hover style like macOS overlay scrollbars */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+  background-clip: content-box;
+  border: 3px solid transparent;
+}
+
+@layer components {
+  /* ---------- Type roles (macOS HIG-aligned) ---------- */
+
+  /* Caption — secondary metadata: ID strings, timestamps, hint copy.
+     Replaces the old uppercase tracked `.label` everywhere. */
+  .label {
+    @apply font-sans text-[11px] font-medium text-labelSecondary;
+    letter-spacing: 0;
+  }
+
+  /* Headline — for section headers and inline emphasis. macOS uses 13pt
+     semibold for Headline; we keep that scale. */
+  .chart-label {
+    @apply font-sans text-[13px] font-semibold text-label;
+    letter-spacing: -0.005em;
+  }
+
+  /* Title 2 (17pt) — section headers in Workbench, modal headers. */
+  .title-2 {
+    @apply font-sans text-[17px] font-semibold text-label;
+    letter-spacing: -0.012em;
+  }
+
+  /* Title 1 (22pt) — Page titles. */
+  .title-1 {
+    @apply font-sans text-[22px] font-semibold text-label;
+    letter-spacing: -0.018em;
+  }
+
+  /* Large Title (28pt) — Hero treatment. Used sparingly. */
+  .large-title {
+    @apply font-sans text-[28px] font-bold text-label;
+    letter-spacing: -0.024em;
+  }
+
+  /* Body (13pt) — default paragraph and form copy. */
+  .body-text {
+    @apply font-sans text-[13px] font-normal text-label;
+    letter-spacing: 0;
+  }
+
+  /* Footnote (11pt) — light secondary text. */
+  .footnote {
+    @apply font-sans text-[11px] font-normal text-labelSecondary;
+    letter-spacing: 0;
+  }
+
+  /* ---------- Surfaces ---------- */
+
+  /* Card = NSBox / GroupBox. Subtle fill + 0.5px-equivalent border + soft
+     radius. This is the standard content container. */
+  .card {
+    @apply bg-elevated border border-separator rounded-macMd shadow-macCard;
+  }
+  .card-hover:hover {
+    @apply border-labelTertiary;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  /* Sidebar uses translucent material with backdrop-blur. */
+  .sidebar-surface {
+    background: rgba(40, 40, 42, 0.65);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-right: 0.5px solid rgba(255, 255, 255, 0.10);
+  }
+
+  /* Toolbar — slim translucent header with vibrancy. */
+  .toolbar-surface {
+    background: rgba(28, 28, 30, 0.75);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.10);
+  }
+
+  /* Liquid Glass — most prominent translucent surface for floating panels
+     like the sticky vital strip. Light specular hint on top edge. */
+  .liquid-glass {
+    background: rgba(36, 36, 38, 0.66);
+    backdrop-filter: saturate(180%) blur(40px);
+    -webkit-backdrop-filter: saturate(180%) blur(40px);
+    border: 0.5px solid rgba(255, 255, 255, 0.12);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.06) inset,
+      0 8px 24px rgba(0, 0, 0, 0.30);
+  }
+
+  /* ---------- Pills / status chips (NSTokenField-ish) ---------- */
+  .pill {
+    @apply inline-flex items-center gap-1 font-sans text-[11px] font-medium px-2 py-[2px] rounded-full border;
+    letter-spacing: 0;
+  }
+  .pill-ok {
+    border-color: rgba(48, 209, 88, 0.35);
+    color: #5fdb83;
+    background: rgba(48, 209, 88, 0.10);
+  }
+  .pill-warn {
+    border-color: rgba(255, 159, 10, 0.40);
+    color: #ffb84d;
+    background: rgba(255, 159, 10, 0.10);
+  }
+  .pill-block {
+    border-color: rgba(255, 69, 58, 0.40);
+    color: #ff7b6d;
+    background: rgba(255, 69, 58, 0.10);
+  }
+  .pill-mute {
+    border-color: rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.62);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  /* ---------- Buttons (NSButton styles) ---------- */
+
+  /* Default bordered button — standard secondary action. */
+  .btn {
+    @apply font-sans text-[13px] font-medium px-3 py-1.5 rounded-macSm transition-colors;
+    color: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.07);
+    border: 0.5px solid rgba(255, 255, 255, 0.18);
+    letter-spacing: 0;
+  }
+  .btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.28);
+  }
+  .btn:active:not(:disabled) {
+    background: rgba(255, 255, 255, 0.20);
+  }
+  .btn:disabled {
+    opacity: 0.40;
+    cursor: not-allowed;
+  }
+
+  .btn-ghost {
+    @apply font-sans text-[13px] font-medium px-2.5 py-1.5 rounded-macSm transition-colors;
+    color: rgba(255, 255, 255, 0.62);
+    background: transparent;
+    border: 0.5px solid transparent;
+    letter-spacing: 0;
+  }
+  .btn-ghost:hover:not(:disabled) {
+    color: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  /* Bordered prominent button — primary action, accent-filled. */
+  .btn-primary {
+    @apply font-sans text-[13px] font-semibold px-3 py-1.5 rounded-macSm transition-colors;
+    background: #0a84ff;
+    color: #fff;
+    border: 0.5px solid rgba(0, 0, 0, 0.30);
+    letter-spacing: 0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: #389bff;
+  }
+  .btn-primary:active:not(:disabled) {
+    background: #0070d6;
+  }
+  .btn-primary:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  /* Destructive button. */
+  .btn-danger {
+    @apply font-sans text-[13px] font-semibold px-3 py-1.5 rounded-macSm transition-colors;
+    background: #ff453a;
+    color: #fff;
+    border: 0.5px solid rgba(0, 0, 0, 0.30);
+    letter-spacing: 0;
+  }
+  .btn-danger:hover:not(:disabled) {
+    background: #ff6961;
+  }
+
+  /* ---------- Form controls ---------- */
+
+  /* NSTextField look. Subtle inset, focus uses systemBlue ring. */
+  .input {
+    @apply w-full font-sans text-[13px] rounded-macSm px-3 py-1.5 transition-colors;
+    color: rgba(255, 255, 255, 0.92);
+    background: rgba(0, 0, 0, 0.25);
+    border: 0.5px solid rgba(255, 255, 255, 0.13);
+    letter-spacing: 0;
+  }
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0.30);
+  }
+  .input:focus {
+    outline: none;
+    border-color: #0a84ff;
+    box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.25);
+  }
+
+  .field-label {
+    @apply block label mb-1.5;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  /* Inline form control used inside inset-grouped Settings rows. Has no
+     visible border or fill — the surrounding row container provides the
+     visual structure (just like NSStackView Form rows on macOS). Native
+     focus uses systemBlue ring without the inset look of `.input`. */
+  .form-control {
+    @apply w-full font-sans text-[13px] py-1 px-2 rounded-[4px] transition-colors;
+    color: rgba(255, 255, 255, 0.92);
+    background: transparent;
+    border: 0.5px solid transparent;
+    text-align: right;
+    letter-spacing: 0;
+  }
+  textarea.form-control,
+  select.form-control {
+    text-align: left;
+  }
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.30);
+  }
+  .form-control:hover:not(:focus) {
+    background: rgba(255, 255, 255, 0.04);
+  }
+  .form-control:focus {
+    outline: none;
+    background: rgba(0, 0, 0, 0.30);
+    border-color: #0a84ff;
+    box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.20);
+    text-align: left;
+  }
+
+  /* Minimal serif accent — used very sparingly (Apple apps rarely use serif).
+     Maps to New York if locally installed; otherwise system serif. */
+  .serif {
+    font-family: "New York", ui-serif, Charter, Georgia, Cambria, "Times New Roman", serif;
+    font-weight: 500;
+    letter-spacing: -0.012em;
+  }
+
+  /* macOS sidebar list row. Selection uses the vibrant systemBlue accent
+     fill (NSTableView selectedContentBackgroundColor in dark mode), with
+     white text — the same pattern Finder, Notes, Mail, Reminders use. */
+  .list-row {
+    @apply rounded-macSm px-2.5 py-1 transition-colors cursor-pointer;
+  }
+  .list-row:hover:not([data-selected="true"]) {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .list-row[data-selected="true"] {
+    background: #0a84ff;
+  }
+  .list-row[data-selected="true"]:hover {
+    background: #389bff;
+  }
+
+  /* Segmented control — used in toolbars for mode switching. */
+  .segmented {
+    @apply inline-flex items-center rounded-macSm p-[2px];
+    background: rgba(255, 255, 255, 0.06);
+    border: 0.5px solid rgba(255, 255, 255, 0.10);
+  }
+  .segmented-item {
+    @apply font-sans text-[12px] font-medium px-3 py-1 rounded-[4px] transition-colors;
+    color: rgba(255, 255, 255, 0.70);
+    letter-spacing: 0;
+  }
+  .segmented-item:hover {
+    color: rgba(255, 255, 255, 0.92);
+  }
+  .segmented-item[data-active="true"] {
+    background: rgba(255, 255, 255, 0.14);
+    color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0.5px 0 rgba(255, 255, 255, 0.20) inset, 0 0.5px 1.5px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Keyboard cap glyph. */
+  .kbd {
+    @apply inline-flex items-center justify-center font-sans text-[11px] font-medium rounded-[4px] px-1.5 min-w-[18px];
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.78);
+    border: 0.5px solid rgba(255, 255, 255, 0.16);
+    box-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.40);
+    line-height: 1.5;
+  }
+}

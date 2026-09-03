@@ -1,0 +1,110 @@
+[span] VibeStudio
+[button] Schedule
+[button] Template
+[span] Sessions
+[span] Memory is the missing creative layer
+[small] Draft
+[span] Shared Attention guide
+[span] Agent settings
+[span] Codex available in WebMCP
+[p] Right-click points. Left-click opens + clears.
+[span] Your multimodal creative radar
+[h1] Inspire
+[p] Follow broadly. Save selectively. Teach VibeStudio what feels like you.
+[button] Manage sources
+[button] Add source
+[h2] YouTube
+[p] Videos, interviews, and build sessions
+[small] items ·
+[small] followed
+[button] See all
+[small] video still
+[strong] A technical launch framed as a build session
+[em] OpenAI Developers
+[small] video still
+[strong] A product launch shown as a real room
+[em] Airbnb
+[span] Add
+[span] YouTube
+[span] source
+[h2] TikTok
+[p] Hooks, formats, and fast cultural signals
+[small] items ·
+[small] followed
+[button] See all
+[p] No items yet. Follow a source and new work will arrive here.
+[span] Add
+[span] TikTok
+[span] source
+[h2] Instagram
+[p] Reels, carousels, and visual systems
+[small] items ·
+[small] followed
+[button] See all
+[p] No items yet. Follow a source and new work will arrive here.
+[span] Add
+[span] Instagram
+[span] source
+[h2] Facebook
+[p] Posts, communities, and longer reactions
+[small] items ·
+[small] followed
+[button] See all
+[p] No items yet. Follow a source and new work will arrive here.
+[span] Add
+[span] Facebook
+[span] source
+[h2] News
+[p] Publications and current stories
+[small] items ·
+[small] followed
+[button] See all
+[p] No items yet. Follow a source and new work will arrive here.
+[span] Add
+[span] News
+[span] source
+[h2] Websites
+[p] Products, essays, and reference pages
+[small] items ·
+[small] followed
+[button] See all
+[small] image
+[strong] A release visual that feels like a found artifact
+[em] Anthropic
+[small] image
+[strong] One product idea, one unmistakable frame
+[em] OpenAI Developers
+[span] Add
+[span] Websites
+[span] source
+[span] web
+[span] Saved locally
+[strong] Source inspiration
+[small] External material
+[strong] Your Template
+[small] Editable creation system
+[strong] Carousel skill
+[small] Reusable method
+[strong] Anthropic
+[span] @anthropic
+[span] Why this fits
+[h2] A release visual that feels like a found artifact
+[p] The metaphor is distinctive and emotionally legible without generic AI imagery.
+[span] What should VibeStudio remember?
+[button] Like
+[button] Not for me
+[button] Save note
+[button] Saved to taste library
+[button] Add to Talking about
+[button] Create from this
+[strong] Template learning
+[span] Waiting for your signal
+[p] Like, dislike, or add a short note. You can edit what VibeStudio learns at any time.
+[span] Learn Shared Attention ·
+[span] of 3
+[strong] Point instead of prompting
+[h2] Select your first reference
+[p] Open an inspiration and choose
+[strong] Add to Talking about
+[p] . VibeStudio will share that exact source with your agent.
+[button] I’m ready to select

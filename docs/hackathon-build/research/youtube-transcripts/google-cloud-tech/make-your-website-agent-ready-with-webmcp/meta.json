@@ -1,0 +1,18 @@
+{
+  "videoId": "FARxSG_EY98",
+  "title": "Make your website agent ready with WebMCP",
+  "channel": "Google Cloud Tech",
+  "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+  "description": "Join Gemini Enterprise Agent Ready (GEAR) for the latest agent resources here. → https://goo.gle/3Srblgl\nAccess the source code on GitHub → https://goo.gle/4g8TC5t\n\nAI agents are becoming major consumers of the web, but today's websites are built for humans, not machines. WebMCP changes that. In this video, Hugo Zanini, a Google Developer Expert in AI, shows how to expose typed tools directly inside web pages so AI agents can act reliably, quickly, and at a fraction of the token cost. \n\nWatch along and learn:\n* The agent shopping problem and why current approaches like screenshot-scraping fall short.\n* How WebMCP works to expose contextual tools directly through simple browser APIs.\n* A live demo of \"Happy Coffee\" (a React-based developer portal) showing Gemini in action searching catalogs and analyzing quality checks.\n* WebMCP for Local Agents, demonstrating how local workflows can leverage web UIs to accelerate development.\n\nWatch more How I built my agent → https://www.youtube.com/playlist?list=PLIivdWyY5sqLseBL8iUmVbdd_h30C4oEo\n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech\n\nSpeaker: Hugo Zanini\nProducts Mentioned: WebMCP, React, Gemini",
+  "duration": 329,
+  "publishDate": "2026-08-17",
+  "url": "https://www.youtube.com/watch?v=FARxSG_EY98",
+  "coverImage": "imgs/cover.jpg",
+  "thumbnailUrl": "https://i.ytimg.com/vi/FARxSG_EY98/maxresdefault.jpg",
+  "language": {
+    "code": "en-US",
+    "name": "English (United States)",
+    "isGenerated": false
+  },
+  "chapters": []
+}

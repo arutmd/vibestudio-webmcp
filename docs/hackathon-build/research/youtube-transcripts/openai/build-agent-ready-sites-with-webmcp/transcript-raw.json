@@ -1,0 +1,392 @@
+[
+  {
+    "text": "Codex has been able to use the web for",
+    "start": 1.54,
+    "duration": 1.42
+  },
+  {
+    "text": "a while now and watching it click around",
+    "start": 3.12,
+    "duration": 1.8
+  },
+  {
+    "text": "never gets old.",
+    "start": 4.94,
+    "duration": 0.82
+  },
+  {
+    "text": "But one thing that is annoying is that",
+    "start": 5.78,
+    "duration": 2.56
+  },
+  {
+    "text": "it's quite slow. We're releasing WebMCP support",
+    "start": 8.48,
+    "duration": 2.9
+  },
+  {
+    "text": "in Codex and",
+    "start": 11.4,
+    "duration": 0.96
+  },
+  {
+    "text": "what that lets you do is just add tools",
+    "start": 12.38,
+    "duration": 1.86
+  },
+  {
+    "text": "straight into your website and",
+    "start": 14.64,
+    "duration": 2.14
+  },
+  {
+    "text": "it lets Codex go ahead,",
+    "start": 16.8,
+    "duration": 1.26
+  },
+  {
+    "text": "pull it down and figure out exactly the",
+    "start": 18.16,
+    "duration": 2.92
+  },
+  {
+    "text": "capabilities that it needs to know about",
+    "start": 21.58,
+    "duration": 1.36
+  },
+  {
+    "text": "to make really great results on your website.",
+    "start": 22.96,
+    "duration": 1.8
+  },
+  {
+    "text": "I've put together a little demo called Codex",
+    "start": 25.26,
+    "duration": 1.56
+  },
+  {
+    "text": "Modeling Studio and it lets Codex open the",
+    "start": 27.22,
+    "duration": 2.66
+  },
+  {
+    "text": "website and just visually iterate on a 3D",
+    "start": 29.9,
+    "duration": 2.6
+  },
+  {
+    "text": "model that you",
+    "start": 32.52,
+    "duration": 0.72
+  },
+  {
+    "text": "can even 3D print after. It's able to",
+    "start": 33.26,
+    "duration": 2.32
+  },
+  {
+    "text": "set up shapes, take screenshots from",
+    "start": 36,
+    "duration": 2.013
+  },
+  {
+    "text": "different",
+    "start": 38.013,
+    "duration": 0.647
+  },
+  {
+    "text": "angles without",
+    "start": 38.68,
+    "duration": 0.86
+  },
+  {
+    "text": "interrupting your view and",
+    "start": 39.56,
+    "duration": 1.448
+  },
+  {
+    "text": "we can kind of",
+    "start": 41.008,
+    "duration": 0.692
+  },
+  {
+    "text": "collaborate Codex and I on the demo and",
+    "start": 41.72,
+    "duration": 2.94
+  },
+  {
+    "text": "I can give",
+    "start": 44.68,
+    "duration": 0.4
+  },
+  {
+    "text": "it notes as it works. It's a little demo",
+    "start": 45.1,
+    "duration": 1.78
+  },
+  {
+    "text": "just to show off the capabilities of something",
+    "start": 47.16,
+    "duration": 1.84
+  },
+  {
+    "text": "like pretty",
+    "start": 49.36,
+    "duration": 0.44
+  },
+  {
+    "text": "advanced that you can put in a website.",
+    "start": 49.82,
+    "duration": 1.52
+  },
+  {
+    "text": "You know, sites are not just for, you know,",
+    "start": 51.6,
+    "duration": 1.78
+  },
+  {
+    "text": "simple eShop pages",
+    "start": 53.48,
+    "duration": 1.1
+  },
+  {
+    "text": "you can actually have full 3D",
+    "start": 54.6,
+    "duration": 1.412
+  },
+  {
+    "text": "renderings",
+    "start": 56.012,
+    "duration": 0.588
+  },
+  {
+    "text": "and all kinds of things going on there",
+    "start": 56.62,
+    "duration": 1.3
+  },
+  {
+    "text": "and having WebMCP",
+    "start": 58.62,
+    "duration": 1.2
+  },
+  {
+    "text": "just really elevates the possibilities of",
+    "start": 59.84,
+    "duration": 1.92
+  },
+  {
+    "text": "what you can show and distribute to",
+    "start": 61.78,
+    "duration": 1.4
+  },
+  {
+    "text": "people. Adding WebMCP to",
+    "start": 63.78,
+    "duration": 1
+  },
+  {
+    "text": "your site is just as easy as asking",
+    "start": 64.8,
+    "duration": 1.44
+  },
+  {
+    "text": "Codex to do it. It can go ahead, figure",
+    "start": 66.52,
+    "duration": 1.34
+  },
+  {
+    "text": "out the spec and write the",
+    "start": 68.02,
+    "duration": 1.02
+  },
+  {
+    "text": "tools for you. What I recommend is that",
+    "start": 69.06,
+    "duration": 2.78
+  },
+  {
+    "text": "you spend some time dogfooding, iterating with",
+    "start": 71.96,
+    "duration": 2.08
+  },
+  {
+    "text": "Codex. Codex is",
+    "start": 74.06,
+    "duration": 0.96
+  },
+  {
+    "text": "your customer. It's the one using the",
+    "start": 75.04,
+    "duration": 1.54
+  },
+  {
+    "text": "tools, not the user. So you want to make",
+    "start": 76.84,
+    "duration": 1.66
+  },
+  {
+    "text": "sure that tools are",
+    "start": 78.68,
+    "duration": 0.64
+  },
+  {
+    "text": "discoverable to it and it knows exactly",
+    "start": 79.34,
+    "duration": 2.08
+  },
+  {
+    "text": "what it needs to do. You can spend some",
+    "start": 81.64,
+    "duration": 1.78
+  },
+  {
+    "text": "time trimming down",
+    "start": 83.7,
+    "duration": 0.58
+  },
+  {
+    "text": "your tool set making sure the",
+    "start": 84.3,
+    "duration": 1.253
+  },
+  {
+    "text": "descriptions",
+    "start": 85.553,
+    "duration": 0.627
+  },
+  {
+    "text": "are clear and it's able to get to",
+    "start": 86.2,
+    "duration": 3.02
+  },
+  {
+    "text": "where it needs to go as",
+    "start": 89.34,
+    "duration": 0.7
+  },
+  {
+    "text": "efficiently as possible. Codex will tell",
+    "start": 90.06,
+    "duration": 2.34
+  },
+  {
+    "text": "you if you ask it for feedback and",
+    "start": 92.42,
+    "duration": 1.3
+  },
+  {
+    "text": "I've even added a feedback",
+    "start": 93.74,
+    "duration": 1.4
+  },
+  {
+    "text": "tool in the demo here. So as",
+    "start": 95.16,
+    "duration": 2.22
+  },
+  {
+    "text": "Codex works it can flag errors and",
+    "start": 97.4,
+    "duration": 2.36
+  },
+  {
+    "text": "let me know when there's something that",
+    "start": 99.78,
+    "duration": 1.86
+  },
+  {
+    "text": "needs fixing. It's a very different world",
+    "start": 101.66,
+    "duration": 2.58
+  },
+  {
+    "text": "to build tools for a model versus",
+    "start": 104.26,
+    "duration": 2.504
+  },
+  {
+    "text": "having",
+    "start": 106.764,
+    "duration": 0.556
+  },
+  {
+    "text": "them be for a",
+    "start": 107.34,
+    "duration": 1.1
+  },
+  {
+    "text": "person but we're in this world now where",
+    "start": 108.46,
+    "duration": 2.7
+  },
+  {
+    "text": "models and people can collaborate on the",
+    "start": 111.18,
+    "duration": 2.22
+  },
+  {
+    "text": "same interface",
+    "start": 113.42,
+    "duration": 0.58
+  },
+  {
+    "text": "with different channels and",
+    "start": 114.02,
+    "duration": 1.2
+  },
+  {
+    "text": "it's a very different experience but",
+    "start": 115.24,
+    "duration": 1.5
+  },
+  {
+    "text": "it's a whole new world having Codex",
+    "start": 116.76,
+    "duration": 1.78
+  },
+  {
+    "text": "build tools for itself and being able to",
+    "start": 118.56,
+    "duration": 1.7
+  },
+  {
+    "text": "iterate on visuals alongside you as",
+    "start": 120.28,
+    "duration": 2.8
+  },
+  {
+    "text": "you see something",
+    "start": 123.1,
+    "duration": 1
+  },
+  {
+    "text": "different than it does. I'm just starting",
+    "start": 124.12,
+    "duration": 2.16
+  },
+  {
+    "text": "to scratch the surface of what's possible",
+    "start": 126.3,
+    "duration": 1.44
+  },
+  {
+    "text": "to build",
+    "start": 127.76,
+    "duration": 0.38
+  },
+  {
+    "text": "now that agents can interact with sites",
+    "start": 128.16,
+    "duration": 2.22
+  },
+  {
+    "text": "independently of you, and I'm really excited to see",
+    "start": 130.88,
+    "duration": 1.82
+  },
+  {
+    "text": "what you all build.",
+    "start": 132.84,
+    "duration": 0.5
+  }
+]

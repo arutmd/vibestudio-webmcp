@@ -1,0 +1,252 @@
+[
+  {
+    "text": "Hi, I'm Hugo, a Google Developer Expert in AI, and I'll talk to you about Web MCPs,",
+    "start": 0,
+    "duration": 8.76
+  },
+  {
+    "text": "a technology that's reshaping how AI agents interact with the web.",
+    "start": 8.76,
+    "duration": 4.02
+  },
+  {
+    "text": "Let's start with an example. Imagine you run an eCommerce site. More and more customers are",
+    "start": 12.78,
+    "duration": 6.78
+  },
+  {
+    "text": "delegating tasks to AI agents to do things for them. Find a product, compare options,",
+    "start": 19.56,
+    "duration": 5.16
+  },
+  {
+    "text": "or place an order. To stay relevant, your site can't just be human-readable; it has to be machine-",
+    "start": 24.72,
+    "duration": 5.94
+  },
+  {
+    "text": "accessible. You want to be a website that agents can actually use reliably at scale. And this is",
+    "start": 30.66,
+    "duration": 6.54
+  },
+  {
+    "text": "where WebMCP comes in. Web MCP lets you declare agent-ready interfaces directly inside your web",
+    "start": 37.2,
+    "duration": 7.02
+  },
+  {
+    "text": "page. So when your website is loaded, a couple of tools are loaded and exposed together with it",
+    "start": 44.22,
+    "duration": 6.6
+  },
+  {
+    "text": "to the AI agents. And it behaves like a standard MCP, but instead of running on a separate server,",
+    "start": 50.82,
+    "duration": 7.2
+  },
+  {
+    "text": "it lives in the page itself, exposed through a simple browser API. With Web MCP, when an agent",
+    "start": 58.02,
+    "duration": 7.68
+  },
+  {
+    "text": "lands in a page, it doesn't have to scrape the HTML or guess. It sees a clean set of predefined tools",
+    "start": 65.7,
+    "duration": 6.6
+  },
+  {
+    "text": "that they can use to manipulate the website. For our eCommerce example, the home page could expose",
+    "start": 72.3,
+    "duration": 7.14
+  },
+  {
+    "text": "tools such as search products, get categories, and filter, while the product page could expose add to cart",
+    "start": 79.44,
+    "duration": 7.2
+  },
+  {
+    "text": "or get similar products. And the agent calls them like any MCP tool, but the tools are contextual to",
+    "start": 86.64,
+    "duration": 7.92
+  },
+  {
+    "text": "the page the agent's navigating. And there is no need to connect to anything beyond the web page. And",
+    "start": 94.56,
+    "duration": 7.28
+  },
+  {
+    "text": "having this on your website makes a huge difference because navigation becomes much faster and much",
+    "start": 101.84,
+    "duration": 6.16
+  },
+  {
+    "text": "cheaper in terms of tokens. So let me show you how this looks like in practice. To demonstrate this,",
+    "start": 108,
+    "duration": 6.24
+  },
+  {
+    "text": "I built a small example called Happy Coffee, a fake internal data developer portal for a coffee warehouse.",
+    "start": 114.24,
+    "duration": 6.72
+  },
+  {
+    "text": "It's the kind of tool most companies have for managing their data pipelines, quality checks,",
+    "start": 120.96,
+    "duration": 4.8
+  },
+  {
+    "text": "and cost monitoring, all in one place. This is a React app, and it's fully WebMCP enabled",
+    "start": 125.76,
+    "duration": 6.4
+  },
+  {
+    "text": "using the imperative API. In this example, I'm using a Chrome extension to ask Gemini to search for a",
+    "start": 132.16,
+    "duration": 6.48
+  },
+  {
+    "text": "dataset, analyze the quality checks, and give me a summary of what's going on. This is a sequence of",
+    "start": 138.64,
+    "duration": 6
+  },
+  {
+    "text": "actions that requires a contextual understanding of the website and what to look for. And notice how fast",
+    "start": 144.64,
+    "duration": 6.64
+  },
+  {
+    "text": "Gemini does it properly. And all of this using a tiny fraction of the tokens a screenshot-based agent would",
+    "start": 151.28,
+    "duration": 8.32
+  },
+  {
+    "text": "burn in the process. In this case, it used a few MCP tools I defined, but let me zoom in on the search",
+    "start": 159.6,
+    "duration": 7.44
+  },
+  {
+    "text": "global catalog so you can understand how it works. To create a WebMCP tool, you basically need to",
+    "start": 167.04,
+    "duration": 6.4
+  },
+  {
+    "text": "register it, describe what it does, declare its inputs and outputs, and mark required fields. And",
+    "start": 173.44,
+    "duration": 7.36
+  },
+  {
+    "text": "that's it. The agent now has a precise typed contract for that capability on our website. And",
+    "start": 180.8,
+    "duration": 7.04
+  },
+  {
+    "text": "all the tools are contextual to the page. The agent has everything they need on the page they are",
+    "start": 187.84,
+    "duration": 5.76
+  },
+  {
+    "text": "loading. There's one more thing I'm really excited about, and it's the reason I chose the developer",
+    "start": 193.6,
+    "duration": 6
+  },
+  {
+    "text": "portal for this demo. WebMCP isn't just for remote agents hitting APIs and interacting with your website.",
+    "start": 199.6,
+    "duration": 6.88
+  },
+  {
+    "text": "It also unlocks local agents working with WebUIs, which enables some very powerful workflows. For example,",
+    "start": 206.48,
+    "duration": 7.36
+  },
+  {
+    "text": "on a typical data development flow, before you merge a pipeline to production, you run a staging",
+    "start": 213.84,
+    "duration": 4.96
+  },
+  {
+    "text": "execution to make sure the dataset materializes correctly. And what we are seeing is that developers",
+    "start": 218.8,
+    "duration": 5.6
+  },
+  {
+    "text": "are calling agents on CLIs to do the whole development for them. But once the dataset is ready,",
+    "start": 224.4,
+    "duration": 6.24
+  },
+  {
+    "text": "they want to have visual feedback on the execution going on. The logs, the lineage, sample data,",
+    "start": 230.64,
+    "duration": 5.6
+  },
+  {
+    "text": "and so on. And WebUIs are the best format to provide such feedback. So, I implemented a way to open my",
+    "start": 236.24,
+    "duration": 7.84
+  },
+  {
+    "text": "local terminal inside my web portal, and I will ask Gemini to develop a data transformation for me.",
+    "start": 244.08,
+    "duration": 5.84
+  },
+  {
+    "text": "However, I used WebMCP to expose the developer portal to the Gemini model I'm interacting. So,",
+    "start": 250.48,
+    "duration": 7.04
+  },
+  {
+    "text": "the code is being developed by Gemini on my local machine. And once the code is ready, Gemini is going",
+    "start": 257.52,
+    "duration": 5.6
+  },
+  {
+    "text": "to trigger a staging execution for the dataset, and they will navigate to the pipeline page to enable",
+    "start": 263.12,
+    "duration": 5.76
+  },
+  {
+    "text": "me to follow that execution. And then, I can inspect the results myself. I can see the logs,",
+    "start": 268.88,
+    "duration": 5.76
+  },
+  {
+    "text": "I can see a sample of the data, and so on. So, notice that after my commands, the model developed",
+    "start": 274.64,
+    "duration": 5.84
+  },
+  {
+    "text": "the dataset, and it's now controlling my browser to check the execution. And it's the type of solution",
+    "start": 280.48,
+    "duration": 5.12
+  },
+  {
+    "text": "that really accelerates development workflows. In my case, I'm monitoring the execution, but in practice,",
+    "start": 285.6,
+    "duration": 6.08
+  },
+  {
+    "text": "you can just expose the WebMCP tools and let it flow autonomously. If you want, you can just have",
+    "start": 291.68,
+    "duration": 5.28
+  },
+  {
+    "text": "the visual feedback. And yeah, that's WebMCP. It makes agentic-driven web navigation fast and",
+    "start": 296.96,
+    "duration": 7.36
+  },
+  {
+    "text": "cost-efficient. And it gives you, as a builder, real control of how agents experience your product.",
+    "start": 304.32,
+    "duration": 6.88
+  },
+  {
+    "text": "The full source code for this demo and an article on WebMCPs are linked in the description below.",
+    "start": 311.2,
+    "duration": 5.92
+  },
+  {
+    "text": "And thanks for watching, and I'll see you next time!",
+    "start": 317.12,
+    "duration": 11.84
+  }
+]

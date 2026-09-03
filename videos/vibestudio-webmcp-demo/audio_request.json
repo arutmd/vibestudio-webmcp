@@ -1,0 +1,38 @@
+{
+  "provider": "kokoro",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "01",
+      "text": "AI can make almost anything. So why does every new piece still begin by explaining yourself again?"
+    },
+    {
+      "id": "02",
+      "text": "VibeStudio is the missing layer: a shared workspace for your inspiration, your editable creative Template, and reusable production skills."
+    },
+    {
+      "id": "03",
+      "text": "Follow YouTube, TikTok, Instagram, news, or any website. Save selectively. Like, dislike, and leave notes. This is how the system learns your taste—with evidence you can edit."
+    },
+    {
+      "id": "04",
+      "text": "Now bring the agent you already use. Through WebMCP, Codex discovers only the actions relevant to this page, starts a Session, and connects to the same visible work."
+    },
+    {
+      "id": "05",
+      "text": "VibeStudio does not dump your whole memory into every task. It creates a bounded receipt with only the identity, voice, taste, and production rules this piece needs."
+    },
+    {
+      "id": "06",
+      "text": "Ask for one slide to change, and only that slide changes. The canvas updates immediately. You see who changed what, why, and which version. Keep it, edit it, or undo it."
+    },
+    {
+      "id": "07",
+      "text": "The result is not just one generated carousel. It is a creative system that gets faster and more consistently yours. Bring your agent. Keep your memory, methods, and final say. VibeStudio."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_michael"
+}

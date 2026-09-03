@@ -1,0 +1,272 @@
+[
+  {
+    "text": "Hi, I'm Hugo, a Google Developer Expert in AI, and I'll talk to you about Web MCPs, a technology that's reshaping how AI agents interact with the web.",
+    "start": "00:00:00",
+    "end": "00:00:12"
+  },
+  {
+    "text": "Let's start with an example.",
+    "start": "00:00:12",
+    "end": "00:00:14"
+  },
+  {
+    "text": "Imagine you run an eCommerce site.",
+    "start": "00:00:14",
+    "end": "00:00:17"
+  },
+  {
+    "text": "More and more customers are delegating tasks to AI agents to do things for them.",
+    "start": "00:00:17",
+    "end": "00:00:22"
+  },
+  {
+    "text": "Find a product, compare options, or place an order.",
+    "start": "00:00:22",
+    "end": "00:00:25"
+  },
+  {
+    "text": "To stay relevant, your site can't just be human-readable; it has to be machine- accessible.",
+    "start": "00:00:25",
+    "end": "00:00:31"
+  },
+  {
+    "text": "You want to be a website that agents can actually use reliably at scale.",
+    "start": "00:00:31",
+    "end": "00:00:36"
+  },
+  {
+    "text": "And this is where WebMCP comes in.",
+    "start": "00:00:36",
+    "end": "00:00:38"
+  },
+  {
+    "text": "Web MCP lets you declare agent-ready interfaces directly inside your web page.",
+    "start": "00:00:38",
+    "end": "00:00:44"
+  },
+  {
+    "text": "So when your website is loaded, a couple of tools are loaded and exposed together with it to the AI agents.",
+    "start": "00:00:44",
+    "end": "00:00:52"
+  },
+  {
+    "text": "And it behaves like a standard MCP, but instead of running on a separate server, it lives in the page itself, exposed through a simple browser API.",
+    "start": "00:00:52",
+    "end": "00:01:03"
+  },
+  {
+    "text": "With Web MCP, when an agent lands in a page, it doesn't have to scrape the HTML or guess.",
+    "start": "00:01:03",
+    "end": "00:01:09"
+  },
+  {
+    "text": "It sees a clean set of predefined tools that they can use to manipulate the website.",
+    "start": "00:01:09",
+    "end": "00:01:15"
+  },
+  {
+    "text": "For our eCommerce example, the home page could expose tools such as search products, get categories, and filter, while the product page could expose add to cart or get similar products.",
+    "start": "00:01:15",
+    "end": "00:01:28"
+  },
+  {
+    "text": "And the agent calls them like any MCP tool, but the tools are contextual to the page the agent's navigating.",
+    "start": "00:01:28",
+    "end": "00:01:36"
+  },
+  {
+    "text": "And there is no need to connect to anything beyond the web page.",
+    "start": "00:01:36",
+    "end": "00:01:41"
+  },
+  {
+    "text": "And having this on your website makes a huge difference because navigation becomes much faster and much cheaper in terms of tokens.",
+    "start": "00:01:41",
+    "end": "00:01:49"
+  },
+  {
+    "text": "So let me show you how this looks like in practice.",
+    "start": "00:01:49",
+    "end": "00:01:52"
+  },
+  {
+    "text": "To demonstrate this, I built a small example called Happy Coffee, a fake internal data developer portal for a coffee warehouse.",
+    "start": "00:01:52",
+    "end": "00:02:00"
+  },
+  {
+    "text": "It's the kind of tool most companies have for managing their data pipelines, quality checks, and cost monitoring, all in one place.",
+    "start": "00:02:00",
+    "end": "00:02:08"
+  },
+  {
+    "text": "This is a React app, and it's fully WebMCP enabled using the imperative API.",
+    "start": "00:02:08",
+    "end": "00:02:13"
+  },
+  {
+    "text": "In this example, I'm using a Chrome extension to ask Gemini to search for a dataset, analyze the quality checks, and give me a summary of what's going on.",
+    "start": "00:02:13",
+    "end": "00:02:23"
+  },
+  {
+    "text": "This is a sequence of actions that requires a contextual understanding of the website and what to look for.",
+    "start": "00:02:23",
+    "end": "00:02:30"
+  },
+  {
+    "text": "And notice how fast Gemini does it properly.",
+    "start": "00:02:30",
+    "end": "00:02:33"
+  },
+  {
+    "text": "And all of this using a tiny fraction of the tokens a screenshot-based agent would burn in the process.",
+    "start": "00:02:33",
+    "end": "00:02:41"
+  },
+  {
+    "text": "In this case, it used a few MCP tools I defined, but let me zoom in on the search global catalog so you can understand how it works.",
+    "start": "00:02:41",
+    "end": "00:02:50"
+  },
+  {
+    "text": "To create a WebMCP tool, you basically need to register it, describe what it does, declare its inputs and outputs, and mark required fields.",
+    "start": "00:02:50",
+    "end": "00:03:00"
+  },
+  {
+    "text": "And that's it.",
+    "start": "00:03:00",
+    "end": "00:03:01"
+  },
+  {
+    "text": "The agent now has a precise typed contract for that capability on our website.",
+    "start": "00:03:01",
+    "end": "00:03:07"
+  },
+  {
+    "text": "And all the tools are contextual to the page.",
+    "start": "00:03:07",
+    "end": "00:03:10"
+  },
+  {
+    "text": "The agent has everything they need on the page they are loading.",
+    "start": "00:03:10",
+    "end": "00:03:14"
+  },
+  {
+    "text": "There's one more thing I'm really excited about, and it's the reason I chose the developer portal for this demo.",
+    "start": "00:03:14",
+    "end": "00:03:20"
+  },
+  {
+    "text": "WebMCP isn't just for remote agents hitting APIs and interacting with your website.",
+    "start": "00:03:20",
+    "end": "00:03:26"
+  },
+  {
+    "text": "It also unlocks local agents working with WebUIs, which enables some very powerful workflows.",
+    "start": "00:03:26",
+    "end": "00:03:32"
+  },
+  {
+    "text": "For example, on a typical data development flow, before you merge a pipeline to production, you run a staging execution to make sure the dataset materializes correctly.",
+    "start": "00:03:32",
+    "end": "00:03:42"
+  },
+  {
+    "text": "And what we are seeing is that developers are calling agents on CLIs to do the whole development for them.",
+    "start": "00:03:42",
+    "end": "00:03:48"
+  },
+  {
+    "text": "But once the dataset is ready, they want to have visual feedback on the execution going on.",
+    "start": "00:03:48",
+    "end": "00:03:54"
+  },
+  {
+    "text": "The logs, the lineage, sample data, and so on.",
+    "start": "00:03:54",
+    "end": "00:03:57"
+  },
+  {
+    "text": "And WebUIs are the best format to provide such feedback.",
+    "start": "00:03:57",
+    "end": "00:04:01"
+  },
+  {
+    "text": "So, I implemented a way to open my local terminal inside my web portal, and I will ask Gemini to develop a data transformation for me.",
+    "start": "00:04:01",
+    "end": "00:04:09"
+  },
+  {
+    "text": "However, I used WebMCP to expose the developer portal to the Gemini model I'm interacting.",
+    "start": "00:04:10",
+    "end": "00:04:17"
+  },
+  {
+    "text": "So, the code is being developed by Gemini on my local machine.",
+    "start": "00:04:17",
+    "end": "00:04:20"
+  },
+  {
+    "text": "And once the code is ready, Gemini is going to trigger a staging execution for the dataset, and they will navigate to the pipeline page to enable me to follow that execution.",
+    "start": "00:04:20",
+    "end": "00:04:30"
+  },
+  {
+    "text": "And then, I can inspect the results myself.",
+    "start": "00:04:30",
+    "end": "00:04:33"
+  },
+  {
+    "text": "I can see the logs, I can see a sample of the data, and so on.",
+    "start": "00:04:33",
+    "end": "00:04:37"
+  },
+  {
+    "text": "So, notice that after my commands, the model developed the dataset, and it's now controlling my browser to check the execution.",
+    "start": "00:04:37",
+    "end": "00:04:44"
+  },
+  {
+    "text": "And it's the type of solution that really accelerates development workflows.",
+    "start": "00:04:44",
+    "end": "00:04:48"
+  },
+  {
+    "text": "In my case, I'm monitoring the execution, but in practice, you can just expose the WebMCP tools and let it flow autonomously.",
+    "start": "00:04:48",
+    "end": "00:04:55"
+  },
+  {
+    "text": "If you want, you can just have the visual feedback.",
+    "start": "00:04:55",
+    "end": "00:04:58"
+  },
+  {
+    "text": "And yeah, that's WebMCP.",
+    "start": "00:04:58",
+    "end": "00:05:00"
+  },
+  {
+    "text": "It makes agentic-driven web navigation fast and cost-efficient.",
+    "start": "00:05:00",
+    "end": "00:05:05"
+  },
+  {
+    "text": "And it gives you, as a builder, real control of how agents experience your product.",
+    "start": "00:05:05",
+    "end": "00:05:11"
+  },
+  {
+    "text": "The full source code for this demo and an article on WebMCPs are linked in the description below.",
+    "start": "00:05:11",
+    "end": "00:05:17"
+  },
+  {
+    "text": "And thanks for watching, and I'll see you next time!",
+    "start": "00:05:17",
+    "end": "00:05:28"
+  }
+]

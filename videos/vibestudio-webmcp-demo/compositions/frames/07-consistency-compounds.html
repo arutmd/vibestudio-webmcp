@@ -1,0 +1,27 @@
+<template>
+  <div data-hf-id="hf-phg6" id="root" data-composition-id="07-consistency-compounds" data-width="1920" data-height="1080" data-duration="13.675">
+    <div data-hf-id="hf-a7m0" id="f07-ground" class="clip ground" data-start="0" data-duration="13.675" data-track-index="0"></div>
+    <section data-hf-id="hf-x5df" id="f07-scene" class="clip stage" data-start="0" data-duration="13.675" data-track-index="1">
+      <div data-hf-id="hf-h6gv" class="kicker"><b data-hf-id="hf-u3lo">✱</b> CONSISTENCY COMPOUNDS</div>
+      <div data-hf-id="hf-ubue" id="f07-sheet" class="sheet"><img data-hf-id="hf-uayr" src="assets/carousel-contact-sheet.png" alt="Finished seven-slide carousel"></div>
+      <div data-hf-id="hf-ts2w" id="f07-labels" class="labels"><span data-hf-id="hf-pj22">MEMORY</span><span data-hf-id="hf-567p">METHODS</span><span data-hf-id="hf-1vmw">VERSIONS</span></div>
+      <div data-hf-id="hf-fsw4" id="f07-lockup" class="lockup"><strong data-hf-id="hf-1hw4">V</strong><div data-hf-id="hf-rymy">VibeStudio<small data-hf-id="hf-5n98">Bring your agent. Keep your creative system.</small></div></div>
+      <div data-hf-id="hf-w39q" id="f07-final" class="final">You keep the final say.</div>
+    </section>
+    <style>
+      @font-face{font-family:Geist;src:url('assets/fonts/geist.woff2')}@font-face{font-family:GeistMono;src:url('assets/fonts/geist-mono.woff2')}
+      #root{position:relative;width:1920px;height:1080px;overflow:hidden;container-type:size;font-family:Geist,sans-serif;color:#f4f1eb}.ground{position:absolute;inset:0;background:#151617}.stage{position:absolute;inset:0;padding:72px 82px 185px;box-sizing:border-box}.kicker{font:600 25px GeistMono;letter-spacing:.16em}.kicker b{color:#e85d49;margin-right:12px}.sheet{position:absolute;left:175px;right:175px;top:150px;height:585px;border:1px solid rgba(244,241,235,.16);border-radius:12px;overflow:hidden;background:#222}.sheet img{width:100%;height:100%;object-fit:cover;object-position:center}.labels{position:absolute;left:430px;right:430px;bottom:204px;display:flex;justify-content:space-between;font:600 21px GeistMono;letter-spacing:.14em;opacity:0}.labels span{padding-top:17px;border-top:1px solid #e85d49}.lockup{position:absolute;left:0;right:0;top:330px;display:flex;align-items:center;justify-content:center;gap:28px;opacity:0}.lockup strong{display:grid;place-items:center;width:115px;height:115px;background:#e85d49;border-radius:16px;font-size:68px}.lockup div{font-size:86px;letter-spacing:-.05em}.lockup small{display:block;font:400 27px GeistMono;letter-spacing:.02em;color:rgba(244,241,235,.6);margin-top:13px}.final{position:absolute;left:0;right:0;top:640px;text-align:center;font-size:42px;letter-spacing:-.03em;opacity:0}
+    </style>
+    <script>
+      (()=>{const tl=gsap.timeline({paused:true});
+        tl.fromTo('#f07-sheet',{scale:.94,opacity:0},{scale:1,opacity:1,duration:.85,ease:'power3.out'},0)
+          .fromTo('#f07-labels',{y:20,opacity:0},{y:0,opacity:1,duration:.65,ease:'power3.out'},2.75)
+          .to('#f07-sheet',{scale:.18,opacity:0,duration:1.0,ease:'power3.inOut'},4.55)
+          .to('#f07-labels',{opacity:0,duration:.35},4.7)
+          .fromTo('#f07-lockup',{scale:.84,opacity:0},{scale:1,opacity:1,duration:.8,ease:'back.out(1.35)'},5.3)
+          .fromTo('#f07-final',{y:22,opacity:0},{y:0,opacity:1,duration:.65,ease:'power3.out'},10.9);
+        window.__timelines['07-consistency-compounds']=tl;
+      })();
+    </script>
+  </div>
+</template>

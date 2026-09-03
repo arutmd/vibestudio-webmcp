@@ -1,0 +1,18 @@
+{
+  "videoId": "Is2NHa7awWY",
+  "title": "Build agent-ready sites with WebMCP",
+  "channel": "OpenAI",
+  "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+  "description": "Eric Provencher from OpenAI Developer Experience demonstrates WebMCP support in Codex with Codex Modeling Studio, a 3D modeling site designed for people and agents to use together. See how adding tools directly to a website lets Codex discover capabilities, iterate on visuals, capture feedback, and collaborate through the same interface.",
+  "duration": 137,
+  "publishDate": "2026-08-25",
+  "url": "https://www.youtube.com/watch?v=Is2NHa7awWY",
+  "coverImage": "imgs/cover.jpg",
+  "thumbnailUrl": "https://i.ytimg.com/vi/Is2NHa7awWY/maxresdefault.jpg",
+  "language": {
+    "code": "en",
+    "name": "English",
+    "isGenerated": false
+  },
+  "chapters": []
+}
