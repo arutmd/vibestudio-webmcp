@@ -1,4 +1,5 @@
 import path from "node:path";
+import os from "node:os";
 
 type StudioPathEnv = Readonly<Record<string, string | undefined>>;
 
@@ -16,6 +17,9 @@ export function resolveProjectRoot(
 ): string {
   const configured = env.ARUTLEE_PROJECT_ROOT?.trim();
   if (configured) return path.resolve(configured);
+  if (isDemoMode(env) && env.VERCEL === "1") {
+    return path.join(os.tmpdir(), "vibestudio-demo");
+  }
   if (isDemoMode(env)) return path.join(cwd, ".vibestudio-demo");
   return path.resolve(cwd, "..");
 }
