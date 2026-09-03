@@ -1,0 +1,17 @@
+.git
+.next*
+node_modules
+.env*
+.superpowers
+.vibestudio-demo
+.devpost-hackathon-state.json
+data-seeds
+docs
+videos
+*.log
+tsconfig.tsbuildinfo
+scripts/start-arutlee-studio.applescript
+scripts/stop-arutlee-studio.applescript
+scripts/start-studio-background.sh
+scripts/stop-studio-background.sh
+public/template-studio/generated/*.txt

@@ -29,3 +29,4 @@ scripts/stop-arutlee-studio.applescript
 scripts/start-studio-background.sh
 scripts/stop-studio-background.sh
 public/template-studio/generated/*.txt
+.vercel
